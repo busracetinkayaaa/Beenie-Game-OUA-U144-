@@ -1,0 +1,776 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'tr' Physical Memory: 16163 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/Users/ND/Documents/UNITY/FlyingController
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+60382
+Successfully changed project path to: C:/Users/ND/Documents/UNITY/FlyingController
+C:/Users/ND/Documents/UNITY/FlyingController
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30356] Host "[IP] 192.168.1.138 [Port] 0 [Flags] 2 [Guid] 945214802 [EditorId] 945214802 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ULBTV1P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30356] Host "[IP] 192.168.1.138 [Port] 0 [Flags] 2 [Guid] 945214802 [EditorId] 945214802 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-ULBTV1P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 78.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ND/Documents/UNITY/FlyingController/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004837 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 78.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (499ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (360ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (81ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003893 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ND\Documents\UNITY\FlyingController\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ND\Documents\UNITY\FlyingController\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 77.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (935ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3884 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (185.6 KB). Loaded Objects now: 4360.
+Memory consumption went from 211.7 MB to 211.5 MB.
+Total: 2.985000 ms (FindLiveObjects: 0.270500 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.458400 ms  DeleteObjects: 0.136500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 971770.726949 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials
+  artifactKey: Guid(4f7e65009f5884a44878d91d28368943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials using Guid(4f7e65009f5884a44878d91d28368943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7a614f8513136c9bc387e4e68f9422') in 0.007893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051132 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall01_Glowing.mat
+  artifactKey: Guid(6b50833ee3cb96c459e29fd78fbee948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall01_Glowing.mat using Guid(6b50833ee3cb96c459e29fd78fbee948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009b1a2ae618c2efee642e5736658e85') in 0.198187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall03_Mat.mat
+  artifactKey: Guid(d26378d7be0d13f468c0ddf749479579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall03_Mat.mat using Guid(d26378d7be0d13f468c0ddf749479579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c969e590002f4c5173392e2a72f0bda') in 0.017243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.983715 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall04_Albedo.tif
+  artifactKey: Guid(452ee9dee34a1ba439a91293f4ee1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall04_Albedo.tif using Guid(452ee9dee34a1ba439a91293f4ee1b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfde3b330793aaeeefcadba89ff1029d') in 0.032879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall04_MetallicSmooth.tif
+  artifactKey: Guid(11b0aa188646edc46bf2b27f7a8717d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall04_MetallicSmooth.tif using Guid(11b0aa188646edc46bf2b27f7a8717d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb08a3779f42be616c3351cc8732655') in 0.026001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.332975 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures
+  artifactKey: Guid(bf3032799f0d5af439f88ec3c38ebd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures using Guid(bf3032799f0d5af439f88ec3c38ebd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09374ed4a82dcbb3fbdd72922a5acb36') in 0.007539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086588 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall01_Albedo.tif
+  artifactKey: Guid(eab18ebe95426f94eac9f1fbd7b18aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall01_Albedo.tif using Guid(eab18ebe95426f94eac9f1fbd7b18aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73de846856a55a05df29c56767f219f') in 0.031058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall06_Albedo.tif
+  artifactKey: Guid(ced08b0b569a5b84798a26e8885bdbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall06_Albedo.tif using Guid(ced08b0b569a5b84798a26e8885bdbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30777d0f24b226d4064cdf55fa1e56b9') in 0.043467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall06_MetallicSmooth.tif
+  artifactKey: Guid(0b782076c24c3be4eb8bd46356025c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall06_MetallicSmooth.tif using Guid(0b782076c24c3be4eb8bd46356025c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1802a76cf87d5df0db63916e4f784c0a') in 0.029409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall01_Occlusion.tif
+  artifactKey: Guid(87023a25159e0f34e9853efc28b4dd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall01_Occlusion.tif using Guid(87023a25159e0f34e9853efc28b4dd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d9be1ba94e2464b993ffbcb978afe8') in 0.026970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall02_Occlusion.tif
+  artifactKey: Guid(5a72504dbeebec64792e24fa6660cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall02_Occlusion.tif using Guid(5a72504dbeebec64792e24fa6660cc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cf68592b70e3732bc8376afe666489') in 0.023603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall02_MetallicSmooth.tif
+  artifactKey: Guid(af351d7e7b868184486492881a74c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall02_MetallicSmooth.tif using Guid(af351d7e7b868184486492881a74c1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf47c8d5e98ed78a9f76c9accf1fee2') in 0.071551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall07_MetallicSmooth.tif
+  artifactKey: Guid(fb43b8f9861841948ba2f8ed5b33045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall07_MetallicSmooth.tif using Guid(fb43b8f9861841948ba2f8ed5b33045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91033de9d00d4e939ca8e15c6aa74218') in 0.025783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall01_Normals.tif
+  artifactKey: Guid(0510e143eeb98d044976b151ac23c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall01_Normals.tif using Guid(0510e143eeb98d044976b151ac23c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410afe30f2e5dea7d4188228d3a42cef') in 0.020458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.078421 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials
+  artifactKey: Guid(32fb8e36f55229742b79aea7b2717ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials using Guid(32fb8e36f55229742b79aea7b2717ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15107f505984360e1f3794b66dd215e') in 0.002177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052779 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Fungus_Green_Mat.mat
+  artifactKey: Guid(818da8cc54db9d04c87f140f62564f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Fungus_Green_Mat.mat using Guid(818da8cc54db9d04c87f140f62564f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b4bff43ed378ebc9c672156d8c490d') in 0.020090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Vine_Mat.mat
+  artifactKey: Guid(b345939ea62931547acd63bcd5b485e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Vine_Mat.mat using Guid(b345939ea62931547acd63bcd5b485e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212bfd38fa6900fd57a81748d12de725') in 0.020420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Grass_02_Mat.mat
+  artifactKey: Guid(7e0b7e421297cbb4cae0bb0da948f573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Grass_02_Mat.mat using Guid(7e0b7e421297cbb4cae0bb0da948f573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9049bde8ab39a3827623b0ccf9a64d') in 0.017379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Grass_03_Mat.mat
+  artifactKey: Guid(427b5a116a8ebe64fbdad4bd862c7d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Grass_03_Mat.mat using Guid(427b5a116a8ebe64fbdad4bd862c7d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c23738d8c6216b84b0613f1bbf7ed4') in 0.020867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Hanging_Moss_Mat.mat
+  artifactKey: Guid(bedaa9f893bcd4149a465fbcce1ccc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Hanging_Moss_Mat.mat using Guid(bedaa9f893bcd4149a465fbcce1ccc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b930c5734710d5a0b78e5f6cc6bf8f') in 0.017115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.609203 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Models
+  artifactKey: Guid(4211b7ff0ea26e047aadb65d6573bdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Models using Guid(4211b7ff0ea26e047aadb65d6573bdeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0dfcb50503ecfbbf9955dddc35583a') in 0.008992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046004 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Models/Fungus.fbx
+  artifactKey: Guid(8f3d457b7dffeec4dbb6d42ad35d0746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Models/Fungus.fbx using Guid(8f3d457b7dffeec4dbb6d42ad35d0746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf977648c10da70be20e3fae728a955') in 0.057301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Models/GroundCover02.fbx
+  artifactKey: Guid(79a4364fb85fe924a9ae2ad673bebdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Models/GroundCover02.fbx using Guid(79a4364fb85fe924a9ae2ad673bebdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5bc2e2e89f2e03c26b0abffceed55b') in 0.021853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.823707 seconds.
+  path: Assets/Jonathan Foust/Materials
+  artifactKey: Guid(c46e4c422685040468a4d33fe178f428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials using Guid(c46e4c422685040468a4d33fe178f428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c508200c6dd4664e8ee699460d93007') in 0.002843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062116 seconds.
+  path: Assets/Jonathan Foust/Materials/Arrowhead Chute Normal Texture.png
+  artifactKey: Guid(84ddbb6d580d1d945aac6ef8e8a938a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Arrowhead Chute Normal Texture.png using Guid(84ddbb6d580d1d945aac6ef8e8a938a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35bd550a0eb16af5d9e710f15fa28f0') in 0.049971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jonathan Foust/Materials/Garlic Mustard and Tree of Heaven Leaves Texture.png
+  artifactKey: Guid(d2a718f042d4fa7488846d3473163344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Garlic Mustard and Tree of Heaven Leaves Texture.png using Guid(d2a718f042d4fa7488846d3473163344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02718d9fd87ef2992a6146e4f39b77fc') in 0.039511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Jonathan Foust/Materials/Fairy Chute Normal Texture.png
+  artifactKey: Guid(53f97c3c00286904ab9af77b4536c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Fairy Chute Normal Texture.png using Guid(53f97c3c00286904ab9af77b4536c72c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02a75e7ca21208a7597d8e558c2913d') in 0.038304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Jonathan Foust/Materials/Arrowhead Chute.mat
+  artifactKey: Guid(583fc2a5fb35ced4fbad907a0eae5457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Arrowhead Chute.mat using Guid(583fc2a5fb35ced4fbad907a0eae5457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b821f5c82d0a186eecf72e2f73916d1b') in 0.242748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Jonathan Foust/Materials/Coleus.mat
+  artifactKey: Guid(dc2e5dcd85093a54582fdbf2421b3cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Coleus.mat using Guid(dc2e5dcd85093a54582fdbf2421b3cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70bda142b4b630b0e4b6b7370f7e6456') in 0.221958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Jonathan Foust/Materials/Garlic Mustard and Tree of Heaven Stem Specular Texture.png
+  artifactKey: Guid(417930a24365332439c2e446dbc453f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Garlic Mustard and Tree of Heaven Stem Specular Texture.png using Guid(417930a24365332439c2e446dbc453f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52d85d1f211257d5df525416d9673bf') in 0.021164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jonathan Foust/Materials/Flat Mint and Trap Leaf Specular Texture.png
+  artifactKey: Guid(0d173bbb1673bb341961d91ea82685c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Flat Mint and Trap Leaf Specular Texture.png using Guid(0d173bbb1673bb341961d91ea82685c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40261a982e2b07e8ef6987a9452b7a90') in 0.024691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jonathan Foust/Materials/Hosta Normal Texture.png
+  artifactKey: Guid(fd69910315cf44543b5e573c7caf358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Hosta Normal Texture.png using Guid(fd69910315cf44543b5e573c7caf358f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5d788a85664bb5c8ea0e06c9c1cc6d') in 0.038340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jonathan Foust/Materials/Glower Hop Texture.png
+  artifactKey: Guid(abb2fc319bb2fa649a7a5dc167667b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Glower Hop Texture.png using Guid(abb2fc319bb2fa649a7a5dc167667b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545ab07a2b04d57221f64653e85ca31b') in 0.030689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Jonathan Foust/Materials/Flat Mint and Trap Leaf Normal Texture.png
+  artifactKey: Guid(7ab27007c41e84b4887d05ec3289af32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Flat Mint and Trap Leaf Normal Texture.png using Guid(7ab27007c41e84b4887d05ec3289af32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903d75f226843560d2e146c90e39ef62') in 0.021380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jonathan Foust/Materials/Flat Mint and Trap Leaf Texture.png
+  artifactKey: Guid(34718fe28c203114b8720fd39f900267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Flat Mint and Trap Leaf Texture.png using Guid(34718fe28c203114b8720fd39f900267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa2ce40d99a709f6671d7f4d7b89901') in 0.021528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jonathan Foust/Materials/Fairy Chute Texture.png
+  artifactKey: Guid(b429ada2e2fccf849ab0782a0c69a90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Fairy Chute Texture.png using Guid(b429ada2e2fccf849ab0782a0c69a90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1279cf23406aa1d88987b405280cb5') in 0.016946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jonathan Foust/Materials/Coleus Normal Texture.png
+  artifactKey: Guid(8af5808d5d881cf4cbe3db4415c04c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Coleus Normal Texture.png using Guid(8af5808d5d881cf4cbe3db4415c04c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8068d22b2d421cce650babbacfd173b') in 0.021492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.548439 seconds.
+  path: Assets/Jonathan Foust/Materials/Hosta Specular Texture.png
+  artifactKey: Guid(37073360006b88b439c2f4803bc643af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Hosta Specular Texture.png using Guid(37073360006b88b439c2f4803bc643af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb79b1c31302202927a709698c192979') in 0.027520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Normal Texture.png
+  artifactKey: Guid(3f9afff410dc3f44ba75fc75a6bb86bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Normal Texture.png using Guid(3f9afff410dc3f44ba75fc75a6bb86bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71238ab87783e1d606fe11539bfc85f') in 0.031592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Cyan.mat
+  artifactKey: Guid(30458182625e2d5488041a4ce773e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Cyan.mat using Guid(30458182625e2d5488041a4ce773e2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c3086eda32cbc4fad9218df79a769d') in 0.037352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Cyan Texture.png
+  artifactKey: Guid(ba70fdb5149d15e45bd47c9feecb3822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Cyan Texture.png using Guid(ba70fdb5149d15e45bd47c9feecb3822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a719a20b046abe09dc7f45e75ba43a') in 0.014557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Blue Texture.png
+  artifactKey: Guid(4c8c59eadec0d4f48ba924096d89a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Blue Texture.png using Guid(4c8c59eadec0d4f48ba924096d89a875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a8a34b9991c81321769d91f7078f0c') in 0.017628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Pink Texture.png
+  artifactKey: Guid(0fcd16224996a7540ad17b17ac4425e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Pink Texture.png using Guid(0fcd16224996a7540ad17b17ac4425e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '773ae50d535dc425e9e381e0fb0922fd') in 0.015520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.733488 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Red Texture.png
+  artifactKey: Guid(d3e37c18152476a4886a41ed495928b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Red Texture.png using Guid(d3e37c18152476a4886a41ed495928b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71d0097c9d6cdc20538074c41940e90d') in 0.028546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Specular Texture.png
+  artifactKey: Guid(1162909a19b896a48a12328890a0288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Specular Texture.png using Guid(1162909a19b896a48a12328890a0288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d406120efc6d3eb0db14f3c6323abe') in 0.014774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid White Texture.png
+  artifactKey: Guid(99f2504b8e09bfa4e8d0b5fb3284cd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid White Texture.png using Guid(99f2504b8e09bfa4e8d0b5fb3284cd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f708fc27b83d84c212f4db6f7746c8') in 0.017851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Yellow Texture.png
+  artifactKey: Guid(1f8ee6a25c01bb84f9907e399a9cda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Yellow Texture.png using Guid(1f8ee6a25c01bb84f9907e399a9cda44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c7b88df9eaeb5bf693b406dc4da474') in 0.020684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jonathan Foust/Materials/Orchid Violet Texture.png
+  artifactKey: Guid(9c0a599be506dba44b2705f6bdbb109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Orchid Violet Texture.png using Guid(9c0a599be506dba44b2705f6bdbb109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15edaa8a5fdd3afac55c9ffabc3f80c') in 0.017819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.180814 seconds.
+  path: Assets/Jonathan Foust/Materials/Snake Eye Tree  and  Windswept Thorn Tree Leaves  Texture.png
+  artifactKey: Guid(2549386dc0e97eb4d886f6e066e65fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Snake Eye Tree  and  Windswept Thorn Tree Leaves  Texture.png using Guid(2549386dc0e97eb4d886f6e066e65fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52173ff47597ff8539f7bdd279870eb') in 0.032559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Jonathan Foust/Materials/Sunflower Petals Texture.png
+  artifactKey: Guid(31da66bf1262f144586bc5b616e634d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Sunflower Petals Texture.png using Guid(31da66bf1262f144586bc5b616e634d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d00485de76b8d3248fd203849e089a5') in 0.038928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Jonathan Foust/Materials/Snake Eye Tree  and  Windswept Thorn Tree Stem.mat
+  artifactKey: Guid(e7dc29c379950474d892f3da0747acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Snake Eye Tree  and  Windswept Thorn Tree Stem.mat using Guid(e7dc29c379950474d892f3da0747acd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c668bea6326853274ee17635ebed7336') in 0.213788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.202289 seconds.
+  path: Assets/Jonathan Foust/Materials/Sunflower Stem Specular Texture.png
+  artifactKey: Guid(63d8ec30ffe040a46a87d96dc16512bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Sunflower Stem Specular Texture.png using Guid(63d8ec30ffe040a46a87d96dc16512bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34294fadec6908d86b01b7e41116767d') in 0.022072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jonathan Foust/Materials/Underbrush Vine Normal Texture.png
+  artifactKey: Guid(1f3cbc3986d19574ea77e5aaced90b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Underbrush Vine Normal Texture.png using Guid(1f3cbc3986d19574ea77e5aaced90b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c01359008a12e458f275180e3ce9064f') in 0.035209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jonathan Foust/Materials/Underbrush Vine Texture.png
+  artifactKey: Guid(db25525793d6ee0449767dffd4632b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Underbrush Vine Texture.png using Guid(db25525793d6ee0449767dffd4632b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74169c068faed3be96f07c892b359cb6') in 0.016963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.570652 seconds.
+  path: Assets/Jonathan Foust/Materials/Materials
+  artifactKey: Guid(8ed2e5e0b17f0d44a996e1e21c7cbf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Materials using Guid(8ed2e5e0b17f0d44a996e1e21c7cbf49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802c52a089c078993ec964f233253e2e') in 0.002028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.083825 seconds.
+  path: Assets/Jonathan Foust/Materials/Materials/Sunflower Petals Texture.mat
+  artifactKey: Guid(67ee271c41f34944aa8b33c9dc37d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Materials/Materials/Sunflower Petals Texture.mat using Guid(67ee271c41f34944aa8b33c9dc37d83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2dbfce31c7a91620ad784313c8a4de') in 0.019296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.839146 seconds.
+  path: Assets/Jonathan Foust/Prefabs
+  artifactKey: Guid(25fae7bfe0248e14a9b89a9918f4a601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs using Guid(25fae7bfe0248e14a9b89a9918f4a601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5606344fc0fefb5946b5b42c19e34fe0') in 0.002569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060081 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Arrowhead Chute Leaf 1.prefab
+  artifactKey: Guid(f0e9c2a6579bf084eb3cabb886348940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Arrowhead Chute Leaf 1.prefab using Guid(f0e9c2a6579bf084eb3cabb886348940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d71871e12e3b341334132fad5fa1d95') in 0.041901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Arrowhead Chute Leaf 4.prefab
+  artifactKey: Guid(6363d1f61b935f04e870d2334aaaf755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Arrowhead Chute Leaf 4.prefab using Guid(6363d1f61b935f04e870d2334aaaf755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbc82edbc7c0b7acf8f9f3c773f0f96') in 0.031365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Coleus 1 Leaf.prefab
+  artifactKey: Guid(503a1f8e0d8d4de4585f4c1108783c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Coleus 1 Leaf.prefab using Guid(503a1f8e0d8d4de4585f4c1108783c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee80145ac996c6ce28fc4894fd17cde') in 0.029803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Fairy Chute Bush 1.prefab
+  artifactKey: Guid(474807f1058f70f46a402db928a1d326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Fairy Chute Bush 1.prefab using Guid(474807f1058f70f46a402db928a1d326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c134f8da3aa6086b01411b117efac6') in 0.032205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Fairy Chute Bush 5.prefab
+  artifactKey: Guid(873d1f2345321bf44ad73389d14a0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Fairy Chute Bush 5.prefab using Guid(873d1f2345321bf44ad73389d14a0786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3daca008cbb5fff29bb41eb135fec5f') in 0.033004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Fairy Chute Flower 1.prefab
+  artifactKey: Guid(e6e8d19e72d993c4da18e26533c8e01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Fairy Chute Flower 1.prefab using Guid(e6e8d19e72d993c4da18e26533c8e01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608e9b7f3b3adeb992f7f2808852682b') in 0.047172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Garlic Mustard 3.prefab
+  artifactKey: Guid(904d64b9113679e46b3729056d8dfece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Garlic Mustard 3.prefab using Guid(904d64b9113679e46b3729056d8dfece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e9ebaceb55a36707a04828d0f7e785') in 0.334041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Flat Mint Leaf.prefab
+  artifactKey: Guid(b4f186c4b80ade449b499105972864a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Flat Mint Leaf.prefab using Guid(b4f186c4b80ade449b499105972864a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cd3856154950a6d729df5c3d6af871') in 0.026015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Fairy Chute Bush 3.prefab
+  artifactKey: Guid(cbdfd9826921afa4fbaffcf41c8a9191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Fairy Chute Bush 3.prefab using Guid(cbdfd9826921afa4fbaffcf41c8a9191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f92f580702a256c79f6f51d2c9a7b2') in 0.026362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Flat Mint Bush 1.prefab
+  artifactKey: Guid(de15275cb8eed354bacab52fd5e60206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Flat Mint Bush 1.prefab using Guid(de15275cb8eed354bacab52fd5e60206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c9263c55d87512ba5b805907e912f3') in 0.028684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Coleus 1.prefab
+  artifactKey: Guid(3f9c52e3c34c21e4f8af8b507f549241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Coleus 1.prefab using Guid(3f9c52e3c34c21e4f8af8b507f549241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041e3430f8c51654a1b63b03e012eabe') in 0.028124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.539757 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Garlic Mustard Leaf.prefab
+  artifactKey: Guid(34a18dea821f3f14a907081d249e7487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Garlic Mustard Leaf.prefab using Guid(34a18dea821f3f14a907081d249e7487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16850dabd198e7db732ff2674cc2c9d4') in 0.026239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 1E.prefab
+  artifactKey: Guid(cf422cf16fe82df46be20ac80393d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 1E.prefab using Guid(cf422cf16fe82df46be20ac80393d42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ff08d4744393ae93d0f9557f95fdc5') in 0.191111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014408 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 3B.prefab
+  artifactKey: Guid(539eb491402fb0a49a1bec8dcd361fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 3B.prefab using Guid(539eb491402fb0a49a1bec8dcd361fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428a3c5d0923c800d056bcc84832c63f') in 0.026643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 4A.prefab
+  artifactKey: Guid(413cd530ada054d4cbf0c6403e4f0780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 4A.prefab using Guid(413cd530ada054d4cbf0c6403e4f0780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097f79dc5e9856a96e394756767ad578') in 0.025676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 4C.prefab
+  artifactKey: Guid(42794784dc36e7c41b27d1da64719bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 4C.prefab using Guid(42794784dc36e7c41b27d1da64719bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838d10ae137898d1884db8f48e090024') in 0.025172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 5E.prefab
+  artifactKey: Guid(01842eea258b3eb479bfa638af78e53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 5E.prefab using Guid(01842eea258b3eb479bfa638af78e53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f61b563d0b35fcee0fbbac4ef53ac6') in 0.024533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 6C.prefab
+  artifactKey: Guid(cef29c875fab46341b9d611828685712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 6C.prefab using Guid(cef29c875fab46341b9d611828685712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '024aaa94d48ba3b3def8cefbfb9765d2') in 0.023557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 7C.prefab
+  artifactKey: Guid(118dfc903bd25054b99f1e82b6b0c313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 7C.prefab using Guid(118dfc903bd25054b99f1e82b6b0c313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6048c3adaa4125124e6013600d2cb2d3') in 0.027701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 6A.prefab
+  artifactKey: Guid(b837495be5f85704eba7e6740a257a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 6A.prefab using Guid(b837495be5f85704eba7e6740a257a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b335d6c4f2202e64bb1c9f167f4cabf') in 0.025579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 5C.prefab
+  artifactKey: Guid(fa2b533f2c654bf43a91bab172abfcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 5C.prefab using Guid(fa2b533f2c654bf43a91bab172abfcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d41072ff76341fa1c9aa368c33198a') in 0.026230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.339501 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Glower Hop 8A.prefab
+  artifactKey: Guid(44abdaf95f9a2a24d8377904ca03acad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Glower Hop 8A.prefab using Guid(44abdaf95f9a2a24d8377904ca03acad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd9029cce3f5f42c306749fe3aa4dc4') in 0.030022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Grass D Blades 1.prefab
+  artifactKey: Guid(72abab7a31b2dfa4a906c368ffaa690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Grass D Blades 1.prefab using Guid(72abab7a31b2dfa4a906c368ffaa690b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1b4188ee516014af4a8f0b7e4e2703') in 0.018660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Grass D Bush 1.prefab
+  artifactKey: Guid(0b194e4be8f70f142a7663f24ec925c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Grass D Bush 1.prefab using Guid(0b194e4be8f70f142a7663f24ec925c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c1fa210d06c63e25278f9af0bb0ed4') in 0.020668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Grass D Bush 4.prefab
+  artifactKey: Guid(ed060c76c3a84134e81b9ef168c5b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Grass D Bush 4.prefab using Guid(ed060c76c3a84134e81b9ef168c5b374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc82c349c92f42e09668462fec907856') in 0.018836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Hosta 2A.prefab
+  artifactKey: Guid(19e4cc10d05c8e24b98479c671e82d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Hosta 2A.prefab using Guid(19e4cc10d05c8e24b98479c671e82d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9085f4bce0261253dfcad6a8bea07ce7') in 0.026048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Hosta 3A.prefab
+  artifactKey: Guid(4c989279d973dc14293eefca2de11fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Hosta 3A.prefab using Guid(4c989279d973dc14293eefca2de11fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13d7b4968f1a63c054bdc4669d8f82d') in 0.029999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Hosta 3B.prefab
+  artifactKey: Guid(27cdd53497484d344a43dc40c43e2dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Hosta 3B.prefab using Guid(27cdd53497484d344a43dc40c43e2dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089093e435cfb7a809927beb545294a5') in 0.025372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Orchid Blue.prefab
+  artifactKey: Guid(f561209d38620234cabecc99891eeda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Orchid Blue.prefab using Guid(f561209d38620234cabecc99891eeda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aaa655cf390cb1fc5af665cad71def') in 0.028896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.447119 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Orchid Cyan.prefab
+  artifactKey: Guid(1c8f27c6b1350754da57aa9e963a1a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Orchid Cyan.prefab using Guid(1c8f27c6b1350754da57aa9e963a1a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42942b4bbe303851ea75a571890d3619') in 0.024862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Orchid Red.prefab
+  artifactKey: Guid(f37032ce35c5d934091f999330ea2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Orchid Red.prefab using Guid(f37032ce35c5d934091f999330ea2422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86a6c1ce25c0668576a1834fa0ffa75') in 0.021349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Snake Eye Leaf.prefab
+  artifactKey: Guid(c117c66344dfa784e86be5d41a1c2d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Snake Eye Leaf.prefab using Guid(c117c66344dfa784e86be5d41a1c2d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6119bf5a6a5a7b20cd5a788eea77856a') in 0.032285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Snake Eye Sapling 1.prefab
+  artifactKey: Guid(0f8b728b9eea40d40ac9d3f98ac041ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Snake Eye Sapling 1.prefab using Guid(0f8b728b9eea40d40ac9d3f98ac041ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7ed99988d0bae91a81375c0a03e360') in 0.030257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Sunflower 3.prefab
+  artifactKey: Guid(5cca0f87b37f2a34d8fc3fcb91096bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Sunflower 3.prefab using Guid(5cca0f87b37f2a34d8fc3fcb91096bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63a0c6a525a4726a209a41517405cf5') in 0.193999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Underbrush Vine Leaf 1.prefab
+  artifactKey: Guid(0495c791a0b967f42b8039f41f42b6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Underbrush Vine Leaf 1.prefab using Guid(0495c791a0b967f42b8039f41f42b6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d7c2248b2217e656b88655b4031a17') in 0.033191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Underbrush Vine Vertical 3.prefab
+  artifactKey: Guid(34cfc80e2c4cd514e928d3d9e9be7460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Underbrush Vine Vertical 3.prefab using Guid(34cfc80e2c4cd514e928d3d9e9be7460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b30897633f0b7746ac75511207fd722') in 0.032094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Underbrush Vine Stem Leaf 3.prefab
+  artifactKey: Guid(d23d9a57a6104f94b9cdac4be956504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Underbrush Vine Stem Leaf 3.prefab using Guid(d23d9a57a6104f94b9cdac4be956504f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ce91f356ac7e4db8cfc590720cce35') in 0.031051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Underbrush Vine Dual Leaf 3.prefab
+  artifactKey: Guid(9256982fa96cee6478926ad7e9822d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Underbrush Vine Dual Leaf 3.prefab using Guid(9256982fa96cee6478926ad7e9822d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24278e39a5008f28a070dd831c5b7b7') in 0.028103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Underbrush Vine Flat 3.prefab
+  artifactKey: Guid(355d39c0a2d44a94591b1b553c260590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Underbrush Vine Flat 3.prefab using Guid(355d39c0a2d44a94591b1b553c260590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5966c88ef170df182ae40db0e06aa3') in 0.032134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Underbrush Vine Vertical 2.prefab
+  artifactKey: Guid(fe64c085bfced3b42850c04fe6f7b883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Underbrush Vine Vertical 2.prefab using Guid(fe64c085bfced3b42850c04fe6f7b883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e98a4411ac30287075cebaf26082c35') in 0.029620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Windswept Thorn Leaf 2.prefab
+  artifactKey: Guid(5494648d87b3c8c4ea522c27ca02cc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Windswept Thorn Leaf 2.prefab using Guid(5494648d87b3c8c4ea522c27ca02cc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c565ae28447370358160298ab7ce69') in 0.033359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Underbrush Vine Stem Leaf 2.prefab
+  artifactKey: Guid(b778883de105fb040b0c463fe840bce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Underbrush Vine Stem Leaf 2.prefab using Guid(b778883de105fb040b0c463fe840bce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6f4a99406f1a12420f545b77f8ddae') in 0.029447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Windswept Thorn Leaf 1.prefab
+  artifactKey: Guid(485edf4b6d4e58c4ea1e9eb51537d0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Windswept Thorn Leaf 1.prefab using Guid(485edf4b6d4e58c4ea1e9eb51537d0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068513304eac20db686f4674cbfeb48a') in 0.035180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Jonathan Foust/Prefabs/Orchid White.prefab
+  artifactKey: Guid(0b2553e938937cc4db41dc41615b92b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jonathan Foust/Prefabs/Orchid White.prefab using Guid(0b2553e938937cc4db41dc41615b92b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7959226961b613af91e9cf333a2ba6') in 0.023550 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
