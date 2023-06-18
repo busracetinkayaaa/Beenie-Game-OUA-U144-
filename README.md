@@ -2,7 +2,7 @@
 Takım Unity 144
 # Ürün İle İlgili Bilgiler
 # Takım Elemanları
-• Fatma Yılmaz:Scrum Master  
+•***Fatma Yılmaz:*** Scrum Master  
 • Büşra Çetinkaya:Product Owner/Developer  
 • Nihal Demir:Developer  
 • Yaren Karaman:Developer  
