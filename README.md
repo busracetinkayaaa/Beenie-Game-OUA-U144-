@@ -43,7 +43,7 @@ https://miro.com/app/board/uXjVM-fE4Yc=/
 
 **•Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır.3 sprint'e bölündüğünde ilk sprint'in en azından 120 ile başlaması gerektiğine karar verildi.
 
-**•Backlog Düzeni ve Story Seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde puanlandırma yapılmıştır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur çünkü 2. Sprint'te iş yükünün daha fazla olacağı ve buna orantılı olarak puanlamanın artacağı düşünülmüştür.  
+**•Backlog Düzeni ve Story Seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde puanlandırma yapılmıştır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur çünkü 2. Sprint'te iş yükünün daha fazla olacağı ve buna orantılı olarak puanlamanın artacağı düşünülmüştür.    
 Story'ler task'lere bölünmüştür. Miro Board'da gözüken kırmızı item'lar task'leri gösterirken, mavi item'lar story'leri temsil etmektedir.  
 
 
@@ -69,7 +69,8 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 #### Volkanik Dağlar Bölümü  
 ![volcanicbiom](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/30623f7a-b57a-4c72-ba7d-6539deba0012)  
 
-**•Sprint Rewiev:** Giriş sahnesi ve 4 biom tasarımının bu sprint içerisinde tamamlanamayacağına kara verilip biomların 2 tanesi ve giriş sahne tasarımının bir kısmı 2. Sprinte aktarılmıştır. ***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
+**•Sprint Rewiev:** Giriş sahnesi ve 4 biom tasarımının bu sprint içerisinde tamamlanamayacağına kara verilip biomların 2 tanesi ve giriş sahne tasarımının bir kısmı 2. Sprinte aktarılmıştır.  
+***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
 
 **•Sprint Retrospective:**  
   ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.  
