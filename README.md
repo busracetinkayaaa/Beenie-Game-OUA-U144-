@@ -8,9 +8,7 @@ Takım Unity 144
 • Yaren Karaman:Developer  
 • Mehmet Tunahan Acar:Aktif olmayan üye  
 # Ürün İsmi
-The Salvation of the Polenia
-# Product Backlog URL
-
+The Salvation of the Polenia  
 # Ürün Açıklaması
 Hikâye, sihirli ve büyülü bir arı kolonisi olan Polenia'da geçmektedir. Polenia'nın büyülü çiçekleri, arılarının özel güçlerini ortaya çıkaran ve onlara sihirli polenler sağlayan eşsiz bitkilerdir. 
 Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği için kritik bir görevle görevlendirilir. Kötü kalpli bir büyücü Polenia’yı lanetlenediği için Bal petekleri kurumakta ve arıların büyülü güçleri zayıflamaktadır. Beenie'nin koloniyi kurtarmak için tehlikeli yollardan geçerek büyülü çiçekleri toplaması gerekir.
@@ -20,7 +18,9 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 • Çiçekleri toplarken farklı düşmanlar ve zorluklarla karşılaşır onlarla mücadele etmesi gerekir.  
 • Her bölgede arıya özel güç verebilecek oraya ait çiçekler bulunur. Bu özellikler: Arının hızlı uçmasını sağlama, arının saldırırken zehirli bir şekilde saldırmasını sağlama, kendini koruyabilmesi için kalkan ve polen taşıma kapasitesini artırma.  
 ## SPRİNT 1
-• Sprint board update:    
+• Sprint board update:  
+![Ekran görüntüsü 2023-06-18 234135](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/6f63d659-d484-4c2f-9b28-1644c6529318)
+
 ## Ekran Görüntüleri 
 ### Karakter Kontrolü
 https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-839d-decac7cdd0cb
