@@ -31,6 +31,6 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 ### Karlı Dağlar Bölümü
 ![snowbiom](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/e1d5d007-5f58-463b-911f-9f1d7103bb7f)
 ### Volkanik Dağlar Bölümü
-![volcanicbiom](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/30623f7a-b57a-4c72-ba7d-6539deba0012)
-
+![volcanicbiom](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/30623f7a-b57a-4c72-ba7d-6539deba0012)  
+https://miro.com/welcomeonboard/VXlYTXhESUM3RUtjRUp1aVdWbHF3NVR5T1YzU1lqRW1HS3dTakRyYjJ3VzRHdU02a0RFWTFVR0JPR2UwelVpSXwzNDU4NzY0NTU3MTE1NzgzOTI4fDI=?share_link_id=185739224753
 
