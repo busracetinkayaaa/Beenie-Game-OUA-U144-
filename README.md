@@ -2,7 +2,7 @@
 Takım Unity 144
 # Ürün İle İlgili Bilgiler
 # Takım Elemanları
-•Fatma Yılmaz:Scrum Master  
+• Fatma Yılmaz:Scrum Master  
 • Büşra Çetinkaya:Product Owner/Developer  
 • Nihal Demir:Developer  
 • Yaren Karaman:Developer  
@@ -21,9 +21,9 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 
 # Hedef Kitle  
 • 12-30 yaş aralığı  
-• Macera oyun türünü sevenler
-• Platform oyun türünü sevenler
-• Simülasyon oyun türünü sevenler  
+• Macera oyun türünü sevenler  
+• Platform oyun türünü sevenler  
+• Simülasyon oyun türünü sevenler    
 
 # Sprint 1  
 **•Sprint içinde tamamlanması tahmin edilen puan:** 120  
