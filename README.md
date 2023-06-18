@@ -51,8 +51,6 @@ https://miro.com/app/board/uXjVM-fE4Yc=/
 ![GGG](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/547d7573-2c54-40d4-a2f4-489fce4a890d)
 
 
-![Ekran görüntüsü 2023-06-18 234135](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/6f63d659-d484-4c2f-9b28-1644c6529318)
-
 ## Ürün Durumu:
 **•Ekran Görüntüleri:**  
 #### Karakter Kontrolü
