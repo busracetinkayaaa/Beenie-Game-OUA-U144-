@@ -19,5 +19,5 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 •Arı oyun içerisinde bulunan 4 farklı bölgeye giderek polen taşıma kapasitesi dolana kadar polen toplar. Topladığı polenleri, Polenia diyarında bulunan kovanlara taşıması gerekmektedir. Kovanlar yeterli polen ile dolduruldukça kovan yavaş yavaş oluşmaya başlar.  
 • Çiçekleri toplarken farklı düşmanlar ve zorluklarla karşılaşır onlarla mücadele etmesi gerekir.  
 • Her bölgede arıya özel güç verebilecek oraya ait çiçekler bulunur. Bu özellikler: Arının hızlı uçmasını sağlama, arının saldırırken zehirli bir şekilde saldırmasını sağlama, kendini koruyabilmesi için kalkan ve polen taşıma kapasitesini artırma.  
-![Ekran görüntüsü 2023-06-18 230220](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/7f303edf-578e-43e9-8470-3af025e5c976)
+
 
