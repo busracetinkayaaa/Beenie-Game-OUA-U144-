@@ -43,7 +43,9 @@ https://miro.com/app/board/uXjVM-fE4Yc=/
 
 **•Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır.3 sprint'e bölündüğünde ilk sprint'in en azından 120 ile başlaması gerektiğine karar verildi.
 
-**•Backlog Düzeni ve Story Seçimleri:** 
+**•Backlog Düzeni ve Story Seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde puanlandırma yapılmıştır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur çünkü 2. Sprint'te iş yükünün daha fazla olacağı düşünülmüştür.
+Story'ler task'lere bölünmüştür. Miro Board'da gözüken kırmızı item'lar task'leri gösterirken, mavi item'lar story'leri temsil etmektedir.  
+
 
 **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir:  https://1drv.ms/w/s!Ak_NsJbufym7fdBeGUkFYiGcd-A?e=CnqO2h  
 
@@ -56,7 +58,7 @@ https://miro.com/app/board/uXjVM-fE4Yc=/
 #### Karakter Kontrolü
 https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-839d-decac7cdd0cb
 
-#### UI Güç Tasarımları
+#### UI Güç Tasarım Örnekleri
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/fed6f970-b3ba-4dcd-aa08-b877a08815c1" width="250" height="250"/>  
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/2d130217-7134-4022-9727-6dce6c49403c" width="250" height="250"/>  
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/718aa137-b19e-4808-8271-cd995c7547c0" width="250" height="250"/>  
