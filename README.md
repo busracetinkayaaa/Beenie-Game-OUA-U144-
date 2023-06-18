@@ -68,7 +68,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
   ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.  
   ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir.  
 
-### PRODUCT BACKLOG URL:    
+## Product Backlog URL:    
 https://miro.com/app/board/uXjVM-fE4Yc=/  
 
 
