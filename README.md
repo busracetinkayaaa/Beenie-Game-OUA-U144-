@@ -75,7 +75,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 **•Sprint Retrospective:**  
   ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.
   
-  ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir
+  ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir  
   .  
   ◦Her Sprint için belirlenen tahmini puanın yeniden değerlendirilmesine karar verilmiştir.
 
