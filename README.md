@@ -42,7 +42,13 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 #### Karlı Dağlar Bölümü  
 ![snowbiom](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/e1d5d007-5f58-463b-911f-9f1d7103bb7f)  
 #### Volkanik Dağlar Bölümü  
-![volcanicbiom](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/30623f7a-b57a-4c72-ba7d-6539deba0012)
+![volcanicbiom](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/30623f7a-b57a-4c72-ba7d-6539deba0012)  
+
+**•Sprint Rewiev:** Giriş sahnesi ve 4 biom tasarımının bu sprint içerisinde tamamlanamayacağına kara verilip biomların 2 tanesi ve giriş sahne tasarımının bir kısmı 2. Sprinte aktarılmıştır. ***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
+
+**•Sprint Retrospective:**  
+  ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.  
+  ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir.  
 
 ### PRODUCT BACKLOG URL:    
 https://miro.com/app/board/uXjVM-fE4Yc=/  
