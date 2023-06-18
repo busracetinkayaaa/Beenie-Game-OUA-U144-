@@ -20,8 +20,7 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 • Çiçekleri toplarken farklı düşmanlar ve zorluklarla karşılaşır onlarla mücadele etmesi gerekir.  
 • Her bölgede arıya özel güç verebilecek oraya ait çiçekler bulunur. Bu özellikler: Arının hızlı uçmasını sağlama, arının saldırırken zehirli bir şekilde saldırmasını sağlama, kendini koruyabilmesi için kalkan ve polen taşıma kapasitesini artırma.  
 ## SPRİNT 1
-• Sprint board update:  
-![Uploading Ekran görüntüsü 2023-06-18 234135.png…]()  
+• Sprint board update:    
 ## Ekran Görüntüleri 
 ### Karakter Kontrolü
 https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-839d-decac7cdd0cb
