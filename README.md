@@ -3,10 +3,10 @@ Takım Unity 144
 # Ürün İle İlgili Bilgiler
 # Takım Elemanları
 • Fatma Yılmaz:Scrum Master
-• Büşra Çetinkaya:Product Owner/Developer
-• Nihal Demir:Developer
-• Yaren Karaman:Developer
-• Mehmet Tunahan Acar:Aktif olmayan üye
+ • Büşra Çetinkaya:Product Owner/Developer
+   • Nihal Demir:Developer
+    • Yaren Karaman:Developer
+      • Mehmet Tunahan Acar:Aktif olmayan üye
 # Ürün İsmi
 The Salvation of the Polenia
 # Product Backlog URL
