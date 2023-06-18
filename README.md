@@ -8,7 +8,7 @@ Takım Unity 144
 •***Yaren Karaman:*** Developer  
 •***Mehmet Tunahan Acar:*** Aktif olmayan üye  
 # Ürün İsmi
-The Salvation of the Polenia
+**The Salvation of the Polenia**
 
 # Ürün Açıklaması
 Hikâye, sihirli ve büyülü bir arı kolonisi olan Polenia'da geçmektedir. Polenia'nın büyülü çiçekleri, arılarının özel güçlerini ortaya çıkaran ve onlara sihirli polenler sağlayan eşsiz bitkilerdir. 
@@ -49,7 +49,7 @@ Story'ler task'lere bölünmüştür. Miro Board'da gözüken kırmızı item'la
 
 **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir:  https://1drv.ms/w/s!Ak_NsJbufym7fdBeGUkFYiGcd-A?e=CnqO2h  
 
-**• Sprint board update:** Sprint board screeshotları:  
+**• Sprint board update:** Sprint board ekran görüntüsü:  
 ![GGG](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/547d7573-2c54-40d4-a2f4-489fce4a890d)
 
 
