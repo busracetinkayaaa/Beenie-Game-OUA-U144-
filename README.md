@@ -28,7 +28,8 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 
 ![Ekran görüntüsü 2023-06-18 234135](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/6f63d659-d484-4c2f-9b28-1644c6529318)
 
-## Ekran Görüntüleri 
+## Ürün Durumu:
+**•Ekran Görüntüleri:**  
 ### Karakter Kontrolü
 https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-839d-decac7cdd0cb
 
