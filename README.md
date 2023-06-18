@@ -39,13 +39,17 @@ https://miro.com/app/board/uXjVM-fE4Yc=/
 
 
 # Sprint 1  
-**•Sprint içinde tamamlanması tahmin edilen puan:** 120  
+**•Sprint içinde tamamlanması tahmin edilen puan:** 140  
 
-**•Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 460 puanlık backlog bulunmaktadır.3 sprint'e bölündüğünde ilk sprint'in en azından 120 ile başlaması gerektiğine karar verildi.  
+**•Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır.3 sprint'e bölündüğünde ilk sprint'in en azından 120 ile başlaması gerektiğine karar verildi.
+
+**•Backlog Düzeni ve Story Seçimleri:** 
 
 **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir:  https://1drv.ms/w/s!Ak_NsJbufym7fdBeGUkFYiGcd-A?e=CnqO2h  
 
-**• Sprint board update:** Sprint board screeshotları:
+**• Sprint board update:** Sprint board screeshotları:  
+![GGG](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/547d7573-2c54-40d4-a2f4-489fce4a890d)
+
 
 ![Ekran görüntüsü 2023-06-18 234135](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/6f63d659-d484-4c2f-9b28-1644c6529318)
 
