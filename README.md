@@ -24,10 +24,11 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 ## Ekran Görüntüleri 
 ### Karakter Kontrolü
 https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-839d-decac7cdd0cb
+### UI Güç Tasarımları  
 ### UI Tasarımları
-![bal_ozu](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/fed6f970-b3ba-4dcd-aa08-b877a08815c1)
-![iksir-export](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/2d130217-7134-4022-9727-6dce6c49403c)
-![ar_kovan_ehehe](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/718aa137-b19e-4808-8271-cd995c7547c0)
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/fed6f970-b3ba-4dcd-aa08-b877a08815c1" width="250" height="250"/>  
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/2d130217-7134-4022-9727-6dce6c49403c" width="250" height="250"/>  
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/718aa137-b19e-4808-8271-cd995c7547c0" width="250" height="250"/>  
 ### Karlı Dağlar Bölümü
 ![snowbiom](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/e1d5d007-5f58-463b-911f-9f1d7103bb7f)
 ### Volkanik Dağlar Bölümü
