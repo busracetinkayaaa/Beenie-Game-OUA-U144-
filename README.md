@@ -74,8 +74,8 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 ***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
 
 **•Sprint Retrospective:**  
-  ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.
-  ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir  
+  ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.  
+  ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir.    
   ◦Her Sprint için belirlenen tahmini puanın yeniden değerlendirilmesine karar verilmiştir.
 
 
