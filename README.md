@@ -11,7 +11,7 @@ Takım Unity 144
 **The Salvation of the Polenia**
 
 ## Ürün Açıklaması
-Hikâye, sihirli ve büyülü bir arı kolonisi olan Polenia'da geçmektedir. Polenia'nın büyülü çiçekleri, arılarının özel güçlerini ortaya çıkaran ve onlara sihirli polenler sağlayan eşsiz bitkilerdir. 
+•  Hikâye, sihirli ve büyülü bir arı kolonisi olan Polenia'da geçmektedir. Polenia'nın büyülü çiçekleri, arılarının özel güçlerini ortaya çıkaran ve onlara sihirli polenler sağlayan eşsiz bitkilerdir. 
 Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği için kritik bir görevle görevlendirilir. Kötü kalpli bir büyücü Polenia’yı lanetlenediği için Bal petekleri kurumakta ve arıların büyülü güçleri zayıflamaktadır. Beenie'nin koloniyi kurtarmak için tehlikeli yollardan geçerek büyülü çiçekleri toplaması gerekir.  
 
 
