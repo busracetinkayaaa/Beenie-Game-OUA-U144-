@@ -6,7 +6,8 @@ Takım Unity 144
 •***Büşra Çetinkaya:*** Product Owner/Developer  
 •***Nihal Demir:*** Developer  
 •***Yaren Karaman:*** Developer  
-•***Mehmet Tunahan Acar:*** Aktif olmayan üye  
+•***Mehmet Tunahan Acar:*** Aktif olmayan üye
+
 ## Ürün İsmi
 **The Salvation of the Polenia**
 
@@ -74,9 +75,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 
 **•Sprint Retrospective:**  
   ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.
-  
   ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir  
-  .  
   ◦Her Sprint için belirlenen tahmini puanın yeniden değerlendirilmesine karar verilmiştir.
 
 
