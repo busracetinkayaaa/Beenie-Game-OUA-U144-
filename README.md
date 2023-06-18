@@ -42,7 +42,7 @@ https://miro.com/app/board/uXjVM-fE4Yc=/
 # Sprint 1  
 **•Sprint içinde tamamlanması tahmin edilen puan:** 140  
 
-**•Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır.3 sprint'e bölündüğünde ilk sprint'in en azından 120 ile başlaması gerektiğine karar verildi.
+**•Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 480 puanlık backlog bulunmaktadır.3 sprint'e bölündüğünde ilk sprint'in en azından 140 ile başlaması gerektiğine karar verildi.
 
 **•Backlog Düzeni ve Story Seçimleri:** Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde puanlandırma yapılmıştır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur çünkü 2. Sprint'te iş yükünün daha fazla olacağı ve buna orantılı olarak puanlamanın artacağı düşünülmüştür.    
 Story'ler task'lere bölünmüştür. Miro Board'da gözüken kırmızı item'lar task'leri gösterirken, mavi item'lar story'leri temsil etmektedir.  
