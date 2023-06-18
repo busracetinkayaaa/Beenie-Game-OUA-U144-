@@ -12,7 +12,8 @@ The Salvation of the Polenia
 
 # Ürün Açıklaması
 Hikâye, sihirli ve büyülü bir arı kolonisi olan Polenia'da geçmektedir. Polenia'nın büyülü çiçekleri, arılarının özel güçlerini ortaya çıkaran ve onlara sihirli polenler sağlayan eşsiz bitkilerdir. 
-Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği için kritik bir görevle görevlendirilir. Kötü kalpli bir büyücü Polenia’yı lanetlenediği için Bal petekleri kurumakta ve arıların büyülü güçleri zayıflamaktadır. Beenie'nin koloniyi kurtarmak için tehlikeli yollardan geçerek büyülü çiçekleri toplaması gerekir.
+Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği için kritik bir görevle görevlendirilir. Kötü kalpli bir büyücü Polenia’yı lanetlenediği için Bal petekleri kurumakta ve arıların büyülü güçleri zayıflamaktadır. Beenie'nin koloniyi kurtarmak için tehlikeli yollardan geçerek büyülü çiçekleri toplaması gerekir.  
+
 
 # Ürün Özellikleri
 • Oyuncu bir arıyı canlandırmaktadır.
@@ -26,9 +27,13 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 
 # Hedef Kitle  
 • 12-30 yaş aralığı  
+
 • Macera oyun türünü sevenler  
+
 • Platform oyun türünü sevenler  
-• Simülasyon oyun türünü sevenler    
+
+• Simülasyon oyun türünü sevenler 
+
 
 # Sprint 1  
 **•Sprint içinde tamamlanması tahmin edilen puan:** 120  
