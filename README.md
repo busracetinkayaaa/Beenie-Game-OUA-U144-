@@ -53,6 +53,7 @@ Story'ler task'lere bölünmüştür. Miro Board'da gözüken kırmızı item'la
 **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir:  https://1drv.ms/w/s!Ak_NsJbufym7fdBeGUkFYiGcd-A?e=CnqO2h  
 
 **• Sprint board update:** Sprint board ekran görüntüsü:  
+
 ![GGG](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/547d7573-2c54-40d4-a2f4-489fce4a890d)
 
 
