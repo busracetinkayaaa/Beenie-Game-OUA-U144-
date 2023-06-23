@@ -1,0 +1,11 @@
+Model Information:
+* title:	Part of Marcillé-Robert Lake (France)
+* source:	https://sketchfab.com/3d-models/part-of-marcille-robert-lake-france-8c82c491a5244053af0a302c3dd902aa
+* author:	dronemapping (https://sketchfab.com/dronemapping)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Part of Marcillé-Robert Lake (France)" (https://sketchfab.com/3d-models/part-of-marcille-robert-lake-france-8c82c491a5244053af0a302c3dd902aa) by dronemapping (https://sketchfab.com/dronemapping) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
