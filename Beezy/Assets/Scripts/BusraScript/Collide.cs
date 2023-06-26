@@ -6,19 +6,19 @@ using UnityEngine.UI;
 public class Collide : MonoBehaviour
 {
 
-    public int maxCan =30; // Maksimum can değeri
-    public int currentCan; // Mevcut can değeri
+    public int maxCan =30; // Maksimum can deÄŸeri
+    public int currentCan; // Mevcut can deÄŸeri
 
-    public Slider canBarSlider; // Can barı UI elemanı
-                                //  public RectTransform canBarFill; // Can barının doluluğunu gösteren UI elemanı
+    public Slider canBarSlider; // Can barÄ± UI elemanÄ±
+                                //  public RectTransform canBarFill; // Can barÄ±nÄ±n doluluÄŸunu gÃ¶steren UI elemanÄ±
 
    // public Animator canAnimasyon;
 
     void Start()
     {
      
-        currentCan = maxCan; // Karakterin başlangıç canı
-        canBarSlider.maxValue = maxCan; // Slider'ın maksimum değerini ayarla
+        currentCan = maxCan; // Karakterin baÅŸlangÄ±Ã§ canÄ±
+        canBarSlider.maxValue = maxCan; // Slider'Ä±n maksimum deÄŸerini ayarla
         canBarSlider.value = currentCan;
     }
 
@@ -42,23 +42,23 @@ public class Collide : MonoBehaviour
             }
         }
     }
-    public void HasarAl(int hasarMiktarı)
+    public void HasarAl(int hasarMiktarÄ±)
     {
-        currentCan -= hasarMiktarı; // Hasar miktarını can değerinden çıkar
+        currentCan -= hasarMiktarÄ±; // Hasar miktarÄ±nÄ± can deÄŸerinden Ã§Ä±kar
 
        // canAnimasyon.Play("CanAzalmaAnimasyonu");
 
 
         if (currentCan <= 0)
         {
-            currentCan = 0; // Can değeri sıfıra düşerse
-            // Ölme işlemleri veya diğer senaryolar burada gerçekleştirilebilir.
+            currentCan = 0; // Can deÄŸeri sÄ±fÄ±ra dÃ¼ÅŸerse
+            // Ã–lme iÅŸlemleri veya diÄŸer senaryolar burada gerÃ§ekleÅŸtirilebilir.
             // Time.timeScale = 0; // Oyunu duraklat
-            // karakterin öldüğü animasyon eklenir.
+            // karakterin Ã¶ldÃ¼ÄŸÃ¼ animasyon eklenir.
             // SceneManager.LoadScene("GameOverScene");
         }
 
-        // Can barının doluluğunu güncelle
+        // Can barÄ±nÄ±n doluluÄŸunu gÃ¼ncelle
         canBarSlider.value = currentCan;
 
 

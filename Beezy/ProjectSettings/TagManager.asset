@@ -6,6 +6,7 @@ TagManager:
   tags:
   - polen
   - wasp
+  - spider
   layers:
   - Default
   - TransparentFX
