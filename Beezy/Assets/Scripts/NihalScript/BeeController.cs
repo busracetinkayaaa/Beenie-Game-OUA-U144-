@@ -8,7 +8,7 @@ public class BeeController : MonoBehaviour
     // horizontal = a-d (strafe)
     // hover = space-altctrl (hover)
 
-    public float forwardSpeed = 7f, strafeSpeed = 7f, hoverSpeed = 5f;
+    public float forwardSpeed = 10f, strafeSpeed = 7f, hoverSpeed = 5f;
     private float activeForwardSpeed, activeStrafeSpeed, activeHoverSpeed;
     private float forwardAcceleration = 0.3f, strateAcceleration = 0.5f, hoverAcceleration = 0.5f;
 
