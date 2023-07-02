@@ -6,7 +6,7 @@ Takım Unity 144
 •***Büşra Çetinkaya:*** Product Owner/Developer  
 •***Nihal Demir:*** Developer  
 •***Yaren Karaman:*** Developer  
-•***Mehmet Tunahan Acar:*** Aktif olmayan üye
+•***Mehmet Tunahan Acar:*** Devoloper
 
 ## Ürün İsmi
 **The Salvation of the Polenia**
@@ -101,7 +101,13 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 
   #### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı:
   
-<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="250" height="250"/>
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="250" height="250"/>  
+
+**•Sprint Rewiev:**  
+
+**•Sprint Retrospective:**
+
+
 
 
 
