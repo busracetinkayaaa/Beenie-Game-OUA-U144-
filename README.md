@@ -82,9 +82,9 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
   ◦Her Sprint için belirlenen tahmini puanın yeniden değerlendirilmesine karar verilmiştir.  
 
   # Sprint 2   
-  #### IU Güç Tasarımlarında Ufak Değişiklikler Yapıladı:
+  #### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı:
   
-![uı](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c)
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="250" height="250"/>
 
 
 
