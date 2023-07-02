@@ -76,12 +76,30 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 **•Sprint Rewiev:** Giriş sahnesi ve 4 biom tasarımının bu sprint içerisinde tamamlanamayacağına kara verilip biomların 2 tanesi ve giriş sahne tasarımının bir kısmı 2. Sprinte aktarılmıştır.  
 ***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
 
+
 **•Sprint Retrospective:**  
   ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.  
   ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir.    
   ◦Her Sprint için belirlenen tahmini puanın yeniden değerlendirilmesine karar verilmiştir.  
 
-  # Sprint 2   
+  # Sprint 2  
+
+  **•Sprint içinde tamamlanması tahmin edilen puan:** 140   
+
+  **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları 
+  gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir:  
+
+  **• Sprint board update:** Sprint board ekran görüntüsü:  
+
+  ## Ürün Durumu:
+**•Ekran Görüntüleri:**  
+
+
+Uploading OUAtaslak_-_SampleScene_-_Windows_Mac_Linux_-_Unity_2021.3.15f1_Personal___DX11__2023-07-02_21-38-14_Trim.mp4…
+
+
+
+
   #### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı:
   
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="250" height="250"/>
