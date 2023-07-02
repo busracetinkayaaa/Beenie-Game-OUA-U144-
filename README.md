@@ -79,7 +79,12 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 **•Sprint Retrospective:**  
   ◦Aktif olmayan üye ile ilgili düzenleme yapılması kararlaştırılmıştır.  
   ◦Developerlar ile iletişim ve geri dönütlerin sıklaştırılmasına karar verilmiştir.    
-  ◦Her Sprint için belirlenen tahmini puanın yeniden değerlendirilmesine karar verilmiştir.
+  ◦Her Sprint için belirlenen tahmini puanın yeniden değerlendirilmesine karar verilmiştir.  
+
+  # Sprint 2   
+  #### IU Güç Tasarımlarında Ufak Değişiklikler Yapıladı:
+  
+![uı](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c)
 
 
 
