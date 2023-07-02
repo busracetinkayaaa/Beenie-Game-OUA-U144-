@@ -95,14 +95,18 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
   ## Ürün Durumu:
 **•Ekran Görüntüleri:**  
 
-Polen toplama etkileşimi: Toplanan her çiçek için polen barı bir artıyor ve polen sayısı 100'e geldiğinde kapasite dolduğu için topla butonu pasif hale geliyor.  
+##### Polen toplama etkileşimi:  
+Toplanan her çiçek için polen barı bir artıyor ve polen sayısı 100'e geldiğinde kapasite dolduğu için topla butonu pasif hale geliyor.  
 
 
-https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-a545-c5e8c93aa63c
+https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-a545-c5e8c93aa63c  
+
+#### Can Barları Tasarımı: 
+
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/f4fa9d4b-d04a-47aa-9808-b74e08559f72" width="250" height="250"/>
 
 
-
-  #### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı:
+#### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı:
   
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="250" height="250"/>  
 
