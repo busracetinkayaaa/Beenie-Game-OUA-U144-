@@ -109,8 +109,8 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-
   
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="200" height="200"/>   
 
-#### Çöl Bölümü  
-
+#### Çöl Bölümü   
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/aa2525c0-b83d-4ec6-bea7-7f7225586732" width="250" height="250"/>
 
 
 
