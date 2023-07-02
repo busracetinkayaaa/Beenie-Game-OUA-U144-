@@ -84,7 +84,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 
   # Sprint 2  
 
-  **•Sprint içinde tamamlanması tahmin edilen puan:** 140   
+  **•Sprint içinde tamamlanması tahmin edilen puan:** 190   
 
   **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları 
   gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir: https://1drv.ms/w/s!Ak_NsJbufym7gQh49yu1R2BVhDFT?e=QMgEfE 
@@ -95,18 +95,18 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
   ## Ürün Durumu:
 **•Ekran Görüntüleri:**  
 
-##### Polen toplama etkileşimi:  
+### Polen toplama etkileşimi:  
 Toplanan her çiçek için polen barı bir artıyor ve polen sayısı 100'e geldiğinde kapasite dolduğu için topla butonu pasif hale geliyor.  
 
 
 https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-a545-c5e8c93aa63c  
 
-#### Can Barları Tasarımı:  
-<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/f4fa9d4b-d04a-47aa-9808-b74e08559f72" width="250" height="200"/>
+#### Can Barları Tasarımı  
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/f4fa9d4b-d04a-47aa-9808-b74e08559f72" width="250" height="200"/>  
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/93b396fa-d885-4e13-8d62-24ad3cc44ce9" width="250" height="200"/> </br>
 Kırmızı:Beeni (karakterimiz)  Yeşil:Düşmanlar
 
-#### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı:
+#### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı
   
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="350" height="300"/>   
 
@@ -128,9 +128,16 @@ Kırmızı:Beeni (karakterimiz)  Yeşil:Düşmanlar
 
 ![image](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/a2dfb592-9484-4dc4-956f-8fe5d36b2092)
 
-**•Sprint Review:**  
+**•Sprint Review:**  Düşmanlara karar verildi ve düşmanlardan ikisi olan örümcek ve karıncanın kodlamaları yapıldı. Ancak hâla yapılıp yapılmamasına karar verilmeyen bir düşman var o yüzden sonraki sprint içerisinde kararlaştırılması için aktarıldı.   
+Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.  
+***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman,Mehmet Tunahan Acar  
 
-**•Sprint Retrospective:**
+
+**•Sprint Retrospective:**  
+ ◦Takım üyelerinin son sprintte daha aktif olması istenmiştir.   
+
+ ## Product Backlog URL:    
+ https://miro.com/app/board/uXjVM-fE4Yc=/
 
 
 
