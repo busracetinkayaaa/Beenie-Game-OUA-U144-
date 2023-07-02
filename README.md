@@ -103,25 +103,32 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-
 
 #### Can Barları Tasarımı:  
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/f4fa9d4b-d04a-47aa-9808-b74e08559f72" width="250" height="200"/>
-<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/93b396fa-d885-4e13-8d62-24ad3cc44ce9" width="250" height="200"/> Kırmızı:Beeni (karakterimiz)  Yeşil:Düşmanlar
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/93b396fa-d885-4e13-8d62-24ad3cc44ce9" width="250" height="200"/> </br>
+Kırmızı:Beeni (karakterimiz)  Yeşil:Düşmanlar
 
 #### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı:
   
-<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="200" height="200"/>   
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="350" height="300"/>   
 
 #### Polenia Bölümü 
+![image](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/dc00c24a-eda4-4e21-aa8e-ac6b089ea6d5)
 
-![Uploading image.png…]()  
+![image](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/225433bd-4426-4e79-be47-fb6502b54af2)
 
 
 
 
-#### Bataklık Bölümü   
+
+#### Bataklık Bölümü 
+![image](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/be985e8b-7c59-42de-bb3a-5c45e8bac868)
+
+
 
 #### Çöl Bölümü 
 
+![image](https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/a2dfb592-9484-4dc4-956f-8fe5d36b2092)
 
-**•Sprint Rewiev:**  
+**•Sprint Review:**  
 
 **•Sprint Retrospective:**
 
