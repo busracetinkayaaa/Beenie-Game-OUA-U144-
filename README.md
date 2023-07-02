@@ -94,10 +94,6 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
   ## Ürün Durumu:
 **•Ekran Görüntüleri:**  
 
-Uploading OUAtaslak_-_SampleScene_-_Windows_Mac_Linux_-_Unity_2021.3.15f1_Personal___DX11__2023-07-02_21-38-14_Trim (1).mp4…
-
-
-
 
 
 
