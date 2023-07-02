@@ -108,7 +108,9 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-
 
 #### IU Güç Tasarımlarında Ufak Değişiklikler Yapıldı:
   
-<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="250" height="250"/>  
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/68773a59-6c2b-4815-8293-5aaf6226430c" width="200" height="200"/>  
+<img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/93b396fa-d885-4e13-8d62-24ad3cc44ce9" width="200" height="200"/> 
+
 
 **•Sprint Rewiev:**  
 
