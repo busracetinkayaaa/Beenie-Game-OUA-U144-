@@ -92,7 +92,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 
   **• Sprint board update:** Sprint board ekran görüntüsü:  
   
-  ![Ekran görüntüsü 2023-07-03 004517](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/8b312e24-8fc5-4b6f-b5ae-313ee11b0144)
+  ![Ekran görüntüsü 2023-07-03 005633](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/7063b503-5b9a-46c2-94c9-2c9355bf9e8b)
 
   
  ## Ürün Durumu:
