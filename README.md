@@ -87,7 +87,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
   **•Sprint içinde tamamlanması tahmin edilen puan:** 140   
 
   **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları 
-  gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir:  
+  gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir: https://1drv.ms/w/s!Ak_NsJbufym7gQh49yu1R2BVhDFT?e=QMgEfE 
  
 
   **• Sprint board update:** Sprint board ekran görüntüsü:  
