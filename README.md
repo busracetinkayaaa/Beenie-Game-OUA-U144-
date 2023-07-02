@@ -111,7 +111,10 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-
 
 #### Polenia Bölümü 
 
-![Uploading image.png…]()
+![Uploading image.png…]()  
+
+
+
 
 #### Bataklık Bölümü   
 
