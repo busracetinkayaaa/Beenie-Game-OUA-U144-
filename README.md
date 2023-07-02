@@ -96,6 +96,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/80969758/66beda82-e25b-495b-
 **•Ekran Görüntüleri:**  
 
 
+https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-a545-c5e8c93aa63c
 
 
 
