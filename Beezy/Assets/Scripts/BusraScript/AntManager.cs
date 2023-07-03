@@ -7,7 +7,7 @@ public class AntManager : MonoBehaviour
 {
     public NavMeshAgent _agent;
     public Animator _animator;
-    [SerializeField] Transform _player;
+    [SerializeField] private Transform _player;
     public LayerMask ground, player;
 
     public Vector3 destinationPoint;
@@ -21,16 +21,23 @@ public class AntManager : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInsightRange, playerInAttackRange;
 
+
     private void Awake()
     {
         _agent = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
+        _player = GameObject.FindGameObjectWithTag("Player").transform;
+
     }
 
     private void Update()
     {
+
+
         playerInsightRange = Physics.CheckSphere(transform.position, sightRange, player);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, player);
+
+
 
         if (!playerInsightRange && !playerInAttackRange)
         {
