@@ -1417,11 +1417,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   destinationPoint: {x: 2.48, y: 0, z: 0}
-  walkPointRange: 5
-  timeBetweenAttacks: 1
+  walkPointRange: 10.12
+  timeBetweenAttacks: 0.24
   sphere: {fileID: 3169822085378447085}
-  sightRange: 5
-  attackRange: 2
+  sightRange: 9.14
+  attackRange: 7.65
   playerInsightRange: 0
   playerInAttackRange: 0
 --- !u!195 &2087254910
