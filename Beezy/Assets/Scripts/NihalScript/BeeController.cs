@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BeeController : MonoBehaviour
 {
@@ -25,15 +26,34 @@ public class BeeController : MonoBehaviour
     private Quaternion targetRotation;
     private Quaternion smoothRotation;
 
+    // buttons
+    public Button gButton; // guard
+    public Button cButton; // capacity 
+    public Button sButton; // speed
+    public Button dButton; // damage
+
+
+    public GameObject player;
+    public GameObject shield;
+    private GameObject shieldE;
+    private bool isShieldActive = false;
+
 
     void Start()
     {
+        player = GameObject.Find("FantasyBee");
+
         animator = GetComponent<Animator>();
         targetRotation = transform.rotation;
         smoothRotation = transform.rotation;
 
         screenCenter.x = Screen.width * .5f;
         screenCenter.y = Screen.height * .5f;
+
+        gButton.onClick.AddListener(gOnClick);
+        sButton.onClick.AddListener(sOnClick);
+        dButton.onClick.AddListener(dOnClick);
+        cButton.onClick.AddListener(cOnClick);
 
     }
 
@@ -106,4 +126,59 @@ public class BeeController : MonoBehaviour
         transform.position += (transform.right * activeStrafeSpeed * Time.deltaTime) + (transform.up * activeHoverSpeed * Time.deltaTime);
 
         }
+
+    private void gOnClick()
+    {
+        gButton.interactable = false;
+    }
+
+    private void sOnClick()
+    {
+        StartCoroutine(IncreaseSpeed());
+        sButton.interactable = false;
+
+
+    }
+
+    private void dOnClick()
+    {
+        dButton.interactable = false;
+    }
+
+    private void cOnClick()
+    {
+        cButton.interactable = false;
+    }
+
+    private IEnumerator IncreaseSpeed()
+    {
+        forwardSpeed *= 2f;
+        strafeSpeed *= 2f;
+        hoverSpeed *= 2f;
+
+        yield return new WaitForSeconds(15f);
+        forwardSpeed /= 2f;
+        strafeSpeed /= 2f;
+        hoverSpeed /= 2f;
+
+        sButton.interactable = false; 
+
+        yield return null;
+    }
+
+    private IEnumerator shieldEff()
+    {
+        shieldE = Instantiate(shield, player.transform.position, player.transform.rotation);
+        shieldE.transform.parent = player.transform;
+
+        isShieldActive = true;
+
+        yield return new WaitForSeconds(15f);
+
+        Destroy(shieldE);
+        isShieldActive = false;
+        gButton.interactable = false;
+
+        yield return null;
+    }
 }
