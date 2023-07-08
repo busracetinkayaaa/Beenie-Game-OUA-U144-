@@ -7,7 +7,7 @@ public class guardScript : MonoBehaviour
 {
     public GameObject player;
     public Button guardButton;
-    private float interactDistance = 2f;
+    private float interactDistance = 5f;
     public GameObject magicFlower_guard;
     public Button useGuard;
 
@@ -51,7 +51,6 @@ public class guardScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         bool isObjectInRange = false;
 
         if (magicFlower_guard != null)
@@ -64,7 +63,7 @@ public class guardScript : MonoBehaviour
 
                 Vector3 objPosition = magicFlower_guard.transform.position;
                 Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
-                buttonPosition += new Vector3(100f, 130f, 0f);
+                buttonPosition += new Vector3(50f, 0f, 0f);
 
                 RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
                 Vector2 viewPos;
