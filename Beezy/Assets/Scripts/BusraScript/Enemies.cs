@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
 public class Enemies : MonoBehaviour
 {
     public int spiderDamage = 10;
@@ -15,3 +15,4 @@ public class Enemies : MonoBehaviour
         }
     }
 }
+*/
