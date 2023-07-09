@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,7 @@ public class interactFlowers : MonoBehaviour
     public GameObject player;
     public Button collectButton;
     public Button useCapacity;
-    private float interactDistance = 4f;
+    private float interactDistance;
     public List<GameObject> interactPol = new List<GameObject>();
     public List<GameObject> interactVol = new List<GameObject>();
     public List<GameObject> interactSnowy = new List<GameObject>();
@@ -37,11 +38,11 @@ public class interactFlowers : MonoBehaviour
         bool anyObjectInRange = false;
         GameObject closestObject = null;
         float closestDistance = Mathf.Infinity;
-        float interactDistance = 0f;
         Vector3 buttonPosition = Vector3.zero;
 
         if (interactPol.Count > 0)
         {
+            Debug.Log("polenia");
             interactDistance = 5f;
             buttonPosition += new Vector3(150f, 200f, 0f);
             closestObject = FindClosestInteractiveObject(interactPol, ref closestDistance);
@@ -49,6 +50,7 @@ public class interactFlowers : MonoBehaviour
         }
         else if (interactVol.Count > 0)
         {
+            Debug.Log("volcano");
             interactDistance = 10f;
             buttonPosition += new Vector3(0f, 0f, 0f);
             closestObject = FindClosestInteractiveObject(interactVol, ref closestDistance);
@@ -56,6 +58,7 @@ public class interactFlowers : MonoBehaviour
         }
         else if (interactSnowy.Count > 0)
         {
+            Debug.Log("snowy");
             interactDistance = 35f;
             buttonPosition += new Vector3(0f, 0f, 0f);
             closestObject = FindClosestInteractiveObject(interactSnowy, ref closestDistance);
@@ -63,6 +66,7 @@ public class interactFlowers : MonoBehaviour
         }
         else if (interactDes.Count > 0)
         {
+            Debug.Log("desert");
             interactDistance = 20f;
             buttonPosition += new Vector3(150f, 200f, 0f);
             closestObject = FindClosestInteractiveObject(interactDes, ref closestDistance);
@@ -70,6 +74,7 @@ public class interactFlowers : MonoBehaviour
         }
         else if (interactSwm.Count > 0)
         {
+            Debug.Log("swamp");
             interactDistance = 25f;
             buttonPosition += new Vector3(150f, 200f, 0f);
             closestObject = FindClosestInteractiveObject(interactSwm, ref closestDistance);
@@ -117,6 +122,7 @@ public class interactFlowers : MonoBehaviour
         {
             interactSwm.Add(obj);
         }
+
     }
 
     public void RemoveInteractiveObject(GameObject obj)
@@ -174,6 +180,8 @@ public class interactFlowers : MonoBehaviour
                     }
                 }
             }
+            RemoveInteractiveObject(closestObject);
+
             UpdateAnimateImage();
         }
     }
@@ -195,6 +203,8 @@ public class interactFlowers : MonoBehaviour
                     useCapacity.interactable = false;
                 }
             }
+            RemoveInteractiveObject(closestObject);
+
             UpdateAnimateImage();
         }
     }
