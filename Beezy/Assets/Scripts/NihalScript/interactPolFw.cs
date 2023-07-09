@@ -10,6 +10,7 @@ public class interactPolFw : MonoBehaviour
     public Button useCapacity;
     private float interactDistance = 4f;
     public List<GameObject> interactiveObjects = new List<GameObject>();
+    private List<GameObject> visitedObjects = new List<GameObject>();
 
     public Sprite[] animImgs;
     public Image animateImgObj;
@@ -34,14 +35,16 @@ public class interactPolFw : MonoBehaviour
 
         foreach (GameObject obj in interactiveObjects)
         {
-            float distance = Vector3.Distance(player.transform.position, obj.transform.position);
-            // Debug.Log("The distance to " + obj.name + " is: " + distance);
-
-            if (distance < interactDistance && distance < closestDistance)
+            if (!visitedObjects.Contains(obj))
             {
-                anyObjectInRange = true;
-                closestObject = obj;
-                closestDistance = distance;
+                float distance = Vector3.Distance(player.transform.position, obj.transform.position);
+
+                if (distance < interactDistance && distance < closestDistance)
+                {
+                    anyObjectInRange = true;
+                    closestObject = obj;
+                    closestDistance = distance;
+                }
             }
         }
 
@@ -82,8 +85,47 @@ public class interactPolFw : MonoBehaviour
     }
     public void OnClickButton()
     {
-        if (useCapacity.interactable)
+        GameObject closestObject = FindClosestInteractiveObject();
+
+        if (closestObject != null)
         {
+            visitedObjects.Add(closestObject); 
+
+            if (useCapacity.interactable)
+            {
+                if (pollenCounter < 150)
+                {
+                    pollenCounter += 10;
+                    if (pollenCounter >= 150)
+                    {
+                        collectButton.interactable = false;
+                        useCapacity.interactable = false;
+                    }
+                }
+            }
+            else
+            {
+                if (pollenCounter < 100)
+                {
+                    pollenCounter += 10;
+                    if (pollenCounter >= 100)
+                    {
+                        collectButton.interactable = false;
+                    }
+                }
+            }
+            UpdateAnimateImage();
+        }
+    }
+
+    public void OnClickUseCapacity()
+    {
+        GameObject closestObject = FindClosestInteractiveObject();
+
+        if (closestObject != null)
+        {
+            visitedObjects.Add(closestObject); 
+
             if (pollenCounter < 150)
             {
                 pollenCounter += 10;
@@ -93,34 +135,32 @@ public class interactPolFw : MonoBehaviour
                     useCapacity.interactable = false;
                 }
             }
+            UpdateAnimateImage();
         }
-        else
+    }
+
+    private GameObject FindClosestInteractiveObject()
+    {
+        GameObject closestObject = null;
+        float closestDistance = Mathf.Infinity;
+
+        foreach (GameObject obj in interactiveObjects)
         {
-            if (pollenCounter < 100)
+            if (!visitedObjects.Contains(obj))
             {
-                pollenCounter += 10;
-                if (pollenCounter >= 100)
+                float distance = Vector3.Distance(player.transform.position, obj.transform.position);
+
+                if (distance < interactDistance && distance < closestDistance)
                 {
-                    collectButton.interactable = false;
+                    closestObject = obj;
+                    closestDistance = distance;
                 }
             }
         }
-        UpdateAnimateImage();
+
+        return closestObject;
     }
 
-    public void OnClickUseCapacity()
-    {
-        if (pollenCounter < 150)
-        {
-            pollenCounter += 10;
-            if (pollenCounter >= 150)
-            {
-                collectButton.interactable = false;
-                useCapacity.interactable = false;
-            }
-        }
-        UpdateAnimateImage();
-    }
 
     private void UpdateAnimateImage()
     {
