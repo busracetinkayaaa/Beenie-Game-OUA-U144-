@@ -410,9 +410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8c8474470874e645bc3214f845516dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxCan: 30
-  currentCan: 0
-  canBarSlider: {fileID: 0}
 --- !u!1 &231262972
 GameObject:
   m_ObjectHideFlags: 0
