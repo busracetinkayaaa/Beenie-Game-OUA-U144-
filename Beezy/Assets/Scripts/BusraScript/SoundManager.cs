@@ -5,23 +5,40 @@ using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
-    public AudioSource audioSource;
-    public Slider audioSlider;
+    [SerializeField]
+    private AudioSource _musicSource,_effectsSource;
+
+    public static SoundManager Instance;
+
 
     private void Start()
     {
-        audioSlider.value = audioSource.volume;
-        audioSlider.onValueChanged.AddListener(OnSliderChanged);
+        
     }
 
-    public void OnSliderChanged(float Volume)
+    private void Awake()
     {
-        audioSource.volume = Volume;
+        if (Instance == null) 
+        {
+            Instance = null;
+            DontDestroyOnLoad(gameObject);
+        }
+
+        else 
+        {
+            Destroy(gameObject);
+        }
     }
 
-    public void SesKapat()
+    public void PlaySound(AudioClip clip) 
     {
-        audioSource.volume = 0f;
+        _effectsSource.PlayOneShot(clip);
+    }
+
+    public void ChangeMasterVolume(float value)
+    {
+        AudioListener.volume = value;
+
     }
 }
  
