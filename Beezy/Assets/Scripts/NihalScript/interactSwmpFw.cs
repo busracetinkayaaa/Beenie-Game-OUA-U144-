@@ -8,7 +8,7 @@ public class interactSwmpFw : MonoBehaviour
     public GameObject player;
     public Button collectButton;
     public Button useCapacity;
-    private float interactDistance = 11f;
+    private float interactDistance = 8f;
     public List<GameObject> interactiveObjects = new List<GameObject>();
     private List<GameObject> visitedObjects = new List<GameObject>();
 
@@ -58,7 +58,7 @@ public class interactSwmpFw : MonoBehaviour
                 Vector3 objPosition = closestObject.transform.position;
                 Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
 
-                buttonPosition += new Vector3(0f, 0f, 0f);
+                buttonPosition += new Vector3(80f, 420f, 0f);
                 Debug.Log("The distance to " + buttonPosition);
                 RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
                 Vector2 viewPos;
