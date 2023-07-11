@@ -58,7 +58,7 @@ public class interactSnowyFw : MonoBehaviour
                 Vector3 objPosition = closestObject.transform.position;
                 Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
 
-                buttonPosition += new Vector3(130f, 120f, 0f);
+                buttonPosition += new Vector3(150f, 100f, 0f);
                 Debug.Log("The distance to " + buttonPosition);
                 RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
                 Vector2 viewPos;
