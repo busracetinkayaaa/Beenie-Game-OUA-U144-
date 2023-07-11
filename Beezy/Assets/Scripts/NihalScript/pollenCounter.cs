@@ -13,6 +13,7 @@ public class pollenCounter : MonoBehaviour
     public Image animateHive;
     public Button hiveButton;
     private int hiveCounter = 0;
+    private int hiveTemp = 0;
 
     public Sprite[] pollImgs;
     public Image animatePoll;
@@ -82,6 +83,7 @@ public class pollenCounter : MonoBehaviour
                 }
             }
         }
+        Debug.Log("PollCounter: " + pollCounter);
         UpdateAnimPoll();
     }
 
@@ -111,14 +113,24 @@ public class pollenCounter : MonoBehaviour
         int spriteIndex = Mathf.Clamp(hiveCounter / 25, 0, hiveImgs.Length - 1);
         animateHive.sprite = hiveImgs[spriteIndex];
 
-        if (spriteIndex == hiveImgs.Length - 1 || pollCounter == 0)
-        {
-            hiveButton.interactable = false;
-        }
-        if ( hiveCounter!=0 && hiveCounter % 25 == 0 && spriteIndex < hiveImgs.Length - 1)
-        {
-            animateHive.sprite = hiveImgs[spriteIndex + 1];
-        }
+        Debug.Log("Sprite Index: " + spriteIndex);
+    }
+
+    public void PollToHive()
+    {
+        hiveTemp = pollCounter;
+        hiveCounter += hiveTemp;
+
+        Debug.Log("HiveCounter: " + hiveCounter);
+        UpdateAnimHive();
+
+        pollCounter = 0;
+        animatePoll.sprite = pollImgs[0];
+        collectPol.interactable = true;
+        collectVol.interactable = true;
+        collectDes.interactable = true;
+        collectSnowy.interactable = true;
+        collectSwmp.interactable = true ;
     }
     private void UpdateAnimPoll()
     {
@@ -126,18 +138,6 @@ public class pollenCounter : MonoBehaviour
         animatePoll.sprite = pollImgs[spriteIndex];
     }
 
-    public void PollToHive()
-    {
-        hiveCounter = pollCounter;
-        UpdateAnimHive();
-        if (pollCounter == 100 || pollCounter == 150)
-        {
-            hiveButton.gameObject.SetActive(true);
-            hiveButton.interactable = true;
-        }
-        pollCounter = 0;
-        animatePoll.sprite = pollImgs[0];
-    }
 
     // Update is called once per frame
     void Update()
