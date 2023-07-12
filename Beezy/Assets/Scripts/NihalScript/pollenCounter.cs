@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,6 +26,8 @@ public class pollenCounter : MonoBehaviour
     public Button collectSnowy;
     public Button collectSwmp;
 
+    public TMPro.TextMeshProUGUI pollCounterText;
+
     public Button useCapacity;
     private RectTransform canvasRectTransform;
 
@@ -32,6 +35,7 @@ public class pollenCounter : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("FantasyBee");
+        pollCounterText = GameObject.Find("pollenTxt").GetComponent<TMPro.TextMeshProUGUI>();
 
         animateHive.sprite = hiveImgs[0];
         animatePoll.sprite = pollImgs[0];
@@ -85,6 +89,12 @@ public class pollenCounter : MonoBehaviour
         }
         Debug.Log("PollCounter: " + pollCounter);
         UpdateAnimPoll();
+
+        if (pollCounterText != null)
+        {
+            pollCounterText.text = "Pollen : " + pollCounter;
+        }
+
     }
 
     public void IncCapacity()
@@ -130,7 +140,13 @@ public class pollenCounter : MonoBehaviour
         collectVol.interactable = true;
         collectDes.interactable = true;
         collectSnowy.interactable = true;
-        collectSwmp.interactable = true ;
+        collectSwmp.interactable = true;
+
+        Debug.Log("PollCounter: " + pollCounter);
+      
+        pollCounterText.text = "Pollen : " + pollCounter;
+
+        
     }
     private void UpdateAnimPoll()
     {

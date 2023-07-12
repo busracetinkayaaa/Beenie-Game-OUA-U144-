@@ -12,8 +12,6 @@ public class interactPolFw : MonoBehaviour
     public List<GameObject> interactiveObjects = new List<GameObject>();
     private List<GameObject> visitedObjects = new List<GameObject>();
 
-    public Sprite[] animImgs;
-    public Image animateImgObj;
     private int pollenCounter = 0;
 
     // Start is called before the first frame update
@@ -23,7 +21,6 @@ public class interactPolFw : MonoBehaviour
         collectButton.onClick.AddListener(OnClickButton);
         useCapacity.onClick.AddListener(OnClickUseCapacity);
 
-        animateImgObj.sprite = animImgs[0];
     }
 
     // Update is called once per frame
@@ -114,7 +111,6 @@ public class interactPolFw : MonoBehaviour
                     }
                 }
             }
-            UpdateAnimateImage();
         }
     }
 
@@ -135,7 +131,6 @@ public class interactPolFw : MonoBehaviour
                     useCapacity.interactable = false;
                 }
             }
-            UpdateAnimateImage();
         }
     }
 
@@ -161,10 +156,4 @@ public class interactPolFw : MonoBehaviour
         return closestObject;
     }
 
-
-    private void UpdateAnimateImage()
-    {
-        int spriteIndex = Mathf.Clamp(pollenCounter / 10, 0, animImgs.Length - 1);
-        animateImgObj.sprite = animImgs[spriteIndex];
-    }
 }

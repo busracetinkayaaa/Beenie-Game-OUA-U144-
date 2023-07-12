@@ -32,6 +32,8 @@ public class BeeController : MonoBehaviour
     public Button sButton; // speed
     public Button dButton; // damage
 
+    public Button useGuard;
+    public Button useSpeed;
 
     public GameObject player;
     public GameObject shield;
@@ -55,6 +57,20 @@ public class BeeController : MonoBehaviour
         dButton.onClick.AddListener(dOnClick);
         cButton.onClick.AddListener(cOnClick);
 
+        useGuard.onClick.AddListener(guardOnClick);
+        useSpeed.onClick.AddListener(speedOnClick);
+    }
+
+    private void guardOnClick()
+    {
+        StartCoroutine(shieldEff());
+        useGuard.interactable = false;
+    }
+
+    private void speedOnClick()
+    {
+        StartCoroutine(IncreaseSpeed());
+        useSpeed.interactable = false;
     }
 
     void Update()
@@ -134,9 +150,7 @@ public class BeeController : MonoBehaviour
 
     private void sOnClick()
     {
-        StartCoroutine(IncreaseSpeed());
         sButton.interactable = false;
-
 
     }
 
@@ -161,14 +175,18 @@ public class BeeController : MonoBehaviour
         strafeSpeed /= 2f;
         hoverSpeed /= 2f;
 
-        sButton.interactable = false; 
-
         yield return null;
     }
 
     private IEnumerator shieldEff()
     {
-        shieldE = Instantiate(shield, player.transform.position, player.transform.rotation);
+
+        Vector3 shieldPosition = player.transform.position;
+        float shieldHeight = shield.GetComponent<Renderer>().bounds.size.y;
+        float yOffset = (player.transform.lossyScale.y + shieldHeight) / 2f;
+        shieldPosition.y += yOffset / 2;
+
+        shieldE = Instantiate(shield, shieldPosition, player.transform.rotation);
         shieldE.transform.parent = player.transform;
 
         isShieldActive = true;
@@ -177,7 +195,6 @@ public class BeeController : MonoBehaviour
 
         Destroy(shieldE);
         isShieldActive = false;
-        gButton.interactable = false;
 
         yield return null;
     }

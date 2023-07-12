@@ -12,8 +12,6 @@ public class interactSwmpFw : MonoBehaviour
     public List<GameObject> interactiveObjects = new List<GameObject>();
     private List<GameObject> visitedObjects = new List<GameObject>();
 
-    public Sprite[] animImgs;
-    public Image animateImgObj;
     private int pollenCounter = 0;
 
     // Start is called before the first frame update
@@ -23,7 +21,6 @@ public class interactSwmpFw : MonoBehaviour
         collectButton.onClick.AddListener(OnClickButton);
         useCapacity.onClick.AddListener(OnClickUseCapacity);
 
-        animateImgObj.sprite = animImgs[0];
     }
 
     // Update is called once per frame
@@ -114,7 +111,7 @@ public class interactSwmpFw : MonoBehaviour
                     }
                 }
             }
-            UpdateAnimateImage();
+
         }
     }
 
@@ -135,7 +132,7 @@ public class interactSwmpFw : MonoBehaviour
                     useCapacity.interactable = false;
                 }
             }
-            UpdateAnimateImage();
+
         }
     }
 
@@ -162,9 +159,4 @@ public class interactSwmpFw : MonoBehaviour
     }
 
 
-    private void UpdateAnimateImage()
-    {
-        int spriteIndex = Mathf.Clamp(pollenCounter / 10, 0, animImgs.Length - 1);
-        animateImgObj.sprite = animImgs[spriteIndex];
-    }
 }
