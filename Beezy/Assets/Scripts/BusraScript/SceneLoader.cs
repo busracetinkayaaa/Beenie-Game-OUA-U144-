@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    public Animator animator;
+
     public void LoadLevel(string Busra )
     {
         SceneManager.LoadScene("Busra");
@@ -18,5 +20,9 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("GameOver");
     }
+
+
+
+   
 
 }
