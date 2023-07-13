@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.AI;
 public class enemySwamp : MonoBehaviour
 {
@@ -13,6 +14,13 @@ public class enemySwamp : MonoBehaviour
     public float decreaseHealthDistance = 5f;
 
     private bool isAttacking = false;
+
+    private int enemyHealth = 80 ;
+
+    public Sprite[] healthImgs;
+    public Image animateHealth;
+
+    public Button cButton;
 
     // Start is called before the first frame update
     void Start()

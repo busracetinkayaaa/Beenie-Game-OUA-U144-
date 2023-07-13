@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
+
 public class enemyDes : MonoBehaviour
 {
     public float lookRadius = 25f;
@@ -13,6 +15,13 @@ public class enemyDes : MonoBehaviour
     public float decreaseHealthDistance = 5f;
 
     private bool isAttacking = false;
+
+    private int enemyHealth;
+
+    public Sprite[] healthImgs;
+    public Image animateHealth;
+
+    public Button gButton;
 
     // Start is called before the first frame update
     void Start()
