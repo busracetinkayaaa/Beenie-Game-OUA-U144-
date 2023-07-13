@@ -4,11 +4,15 @@ using UnityEngine;
 using UnityEngine.AI;
 public class enemyVol : MonoBehaviour
 {
-    public float lookRadius = 15f;
+    public float lookRadius = 25f;
     Transform target;
     NavMeshAgent agent;
 
     private Animator animator;
+
+    public float decreaseHealthDistance = 5f;
+
+    private bool isAttacking = false;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +21,8 @@ public class enemyVol : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
 
+        int health = (int)healthBar.instance.GetHealth();
+        healthBar.instance.SetHealth(health);
 
     }
 
@@ -34,7 +40,6 @@ public class enemyVol : MonoBehaviour
     }
 
 
-
     // Update is called once per frame
     void Update()
     {
@@ -48,19 +53,27 @@ public class enemyVol : MonoBehaviour
         else if (distance <= lookRadius)
         {
             agent.SetDestination(target.position);
-            animator.SetBool("isWalk", true);
 
             if (distance <= agent.stoppingDistance)
             {
                 animator.SetBool("isAttack", true);
                 // attack the target
                 // FaceTarget();
+                if (distance <= decreaseHealthDistance)
+                {
+                   //health
+                }
+            }
+            else
+            {
+                animator.SetBool("isAttack", false);
+                animator.SetBool("isWalk", true);
             }
         }
         else
         {
             animator.SetBool("isWalk", false);
-
+            animator.SetBool("isAttack", false);
         }
     }
 }

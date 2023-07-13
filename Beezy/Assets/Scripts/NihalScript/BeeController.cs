@@ -34,6 +34,7 @@ public class BeeController : MonoBehaviour
 
     public Button useGuard;
     public Button useSpeed;
+    public Button useDamage; 
 
     public GameObject player;
     public GameObject shield;
@@ -180,7 +181,6 @@ public class BeeController : MonoBehaviour
 
     private IEnumerator shieldEff()
     {
-
         Vector3 shieldPosition = player.transform.position;
         float shieldHeight = shield.GetComponent<Renderer>().bounds.size.y;
         float yOffset = (player.transform.lossyScale.y + shieldHeight) / 2f;
