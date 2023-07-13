@@ -202,7 +202,6 @@ GameObject:
   - component: {fileID: 342051917}
   - component: {fileID: 342051920}
   - component: {fileID: 342051919}
-  - component: {fileID: 342051918}
   - component: {fileID: 342051921}
   m_Layer: 5
   m_Name: ImageQuit
@@ -228,26 +227,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 367.05, y: -99.99901}
-  m_SizeDelta: {x: 206.7046, y: 147.14}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &342051918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342051916}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dac925076d65a174e94b23710a41e6d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animImgs:
-  - {fileID: 21300000, guid: 59a2171dd0acb93419ecfda7be08fa21, type: 3}
-  - {fileID: 21300000, guid: 494dd9fc39849af4284090a5bace806a, type: 3}
-  animateImgObj: {fileID: 342051919}
-  animationSpeed: 0.5
+  m_AnchoredPosition: {x: 366, y: -81}
+  m_SizeDelta: {x: 135.89, y: 46.754}
+  m_Pivot: {x: 0.5000005, y: 0.8376125}
 --- !u!114 &342051919
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,7 +250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59a2171dd0acb93419ecfda7be08fa21, type: 3}
+  m_Sprite: {fileID: 101529732, guid: 875f4746bce194e4fb26d6c80b069242, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -334,6 +316,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadLevelEnd
         m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 782765722}
+        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
+        m_MethodName: Button3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -471,7 +465,6 @@ GameObject:
   - component: {fileID: 477363171}
   - component: {fileID: 477363174}
   - component: {fileID: 477363173}
-  - component: {fileID: 477363172}
   - component: {fileID: 477363175}
   m_Layer: 5
   m_Name: ImageSettings
@@ -497,26 +490,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 168, y: -100}
-  m_SizeDelta: {x: 213.3861, y: 147.14}
+  m_AnchoredPosition: {x: 186, y: -96.624}
+  m_SizeDelta: {x: 135.89, y: 47.075}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &477363172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 477363170}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dac925076d65a174e94b23710a41e6d8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animImgs:
-  - {fileID: 21300000, guid: 29a875ea1366d544491e0b90d5395e96, type: 3}
-  - {fileID: 21300000, guid: f2540bd8907eb674cbb0db141cfb02f8, type: 3}
-  animateImgObj: {fileID: 477363173}
-  animationSpeed: 0.5
 --- !u!114 &477363173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -537,7 +513,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 29a875ea1366d544491e0b90d5395e96, type: 3}
+  m_Sprite: {fileID: -2041396289, guid: d01e8261feb01844e960f650a27c2b7c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -603,6 +579,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
         m_MethodName: LoadLevelSettings
         m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 782765722}
+        m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
+        m_MethodName: Button2
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -722,10 +710,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4a35c2f9cccce54099aa88aefa44875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animImgs:
+  animImgs1:
   - {fileID: -1964688869, guid: 7cd7b036a44dfd04b8d1bf194b293aa5, type: 3}
   - {fileID: -1964442504, guid: 7cd7b036a44dfd04b8d1bf194b293aa5, type: 3}
-  animateImgObj: {fileID: 2030999861}
+  animateImgObj1: {fileID: 2030999861}
+  animImgs2:
+  - {fileID: -2041396289, guid: d01e8261feb01844e960f650a27c2b7c, type: 3}
+  - {fileID: -190346246, guid: d01e8261feb01844e960f650a27c2b7c, type: 3}
+  animateImgObj2: {fileID: 477363173}
+  animImgs3:
+  - {fileID: 101529732, guid: 875f4746bce194e4fb26d6c80b069242, type: 3}
+  - {fileID: 1258762192, guid: 875f4746bce194e4fb26d6c80b069242, type: 3}
+  animateImgObj3: {fileID: 342051919}
   animationSpeed: 0.5
 --- !u!1 &1197680260
 GameObject:
@@ -1209,8 +1205,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.4314575, y: -99.999054}
-  m_SizeDelta: {x: 109.7506, y: 40.4536}
+  m_AnchoredPosition: {x: 6.6619, y: -96.6883}
+  m_SizeDelta: {x: 135.8914, y: 47.0752}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2030999861
 MonoBehaviour:
@@ -1308,7 +1304,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 782765722}
         m_TargetAssemblyTypeName: ButtonHandler, Assembly-CSharp
-        m_MethodName: Button
+        m_MethodName: Button1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
