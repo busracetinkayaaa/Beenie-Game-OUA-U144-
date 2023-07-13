@@ -8,19 +8,22 @@ public class StartingScene : MonoBehaviour
 
     public Sprite[] animImgs;
     public Image animateImgObj;
+    public float animationSpeed = 0.5f;
 
 
     // Start is called before the first frame update
-    void Start()
-    {
 
+    private void Start()
+    {
+     
     }
+
 
     // Update is called once per frame
     void Update()
     {
 
-        animateImgObj.sprite = animImgs[(int)(Time.time * 10) % animImgs.Length];
+        animateImgObj.sprite = animImgs[(int)(Time.time * animationSpeed * 10) % animImgs.Length];
 
     }
 }

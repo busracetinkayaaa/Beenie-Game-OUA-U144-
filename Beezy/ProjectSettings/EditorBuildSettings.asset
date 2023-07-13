@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
+    path: 
     guid: d1c3109bdb54ad54c8a2b2838528e640
+  - enabled: 1
+    path: Assets/Scenes/BusraScenes/MainMenuScene.unity
+    guid: 8f35f57e999b3964eadc113fe3f3d38a
+  - enabled: 1
+    path: Assets/Scenes/BusraScenes/Busra.unity
+    guid: a7e3ee61138e09746a2f1d3a0bfc5177
+  - enabled: 1
+    path: Assets/Scenes/BusraScenes/Settings.unity
+    guid: 3c11aadf4d3f36a42a949cffd75e2d66
+  - enabled: 1
+    path: Assets/Scenes/BusraScenes/GameOver.unity
+    guid: 786eb3e854e52644ea765b3c4388859f
   m_configObjects: {}
