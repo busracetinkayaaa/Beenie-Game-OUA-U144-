@@ -21,16 +21,20 @@ public class enemyVol : MonoBehaviour
     public Image animateHealth;
 
     public Button dButton;
+
+    private bool isPlayerAttacking = false;
+    private bool isPlayerInRange = false;
+    public Animator playerAnimation;
+
     // Start is called before the first frame update
     void Start()
     {
         target = playerManager.instance.player.transform;
+        playerAnimation = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
 
-        int health = (int)healthBar.instance.GetHealth();
-        healthBar.instance.SetHealth(health);
-
+        animator.SetBool("isDead", false);
     }
 
     private void OnDrawGizmosSelected()
@@ -46,7 +50,10 @@ public class enemyVol : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
     }
 
-
+    void DealDamage()
+    {
+        // Burada hasar verme iþlemini gerçekleþtirin, düþmanýn canýný azaltýn vb.
+    }
     // Update is called once per frame
     void Update()
     {
@@ -68,7 +75,10 @@ public class enemyVol : MonoBehaviour
                 // FaceTarget();
                 if (distance <= decreaseHealthDistance)
                 {
-                   //health
+                    if (isPlayerAttacking && isPlayerInRange)
+                    {
+                        DealDamage();
+                    }
                 }
             }
             else
@@ -81,6 +91,35 @@ public class enemyVol : MonoBehaviour
         {
             animator.SetBool("isWalk", false);
             animator.SetBool("isAttack", false);
+        }
+    }
+
+    public void OnPlayerAttack()
+    {
+        isPlayerAttacking = true;
+    }
+
+    // Bu metot, oyuncunun saldýrý animasyonu tamamlandýðýnda çaðrýlýr
+    public void OnPlayerAttackComplete()
+    {
+        isPlayerAttacking = false;
+    }
+
+    // Bu metot, oyuncu düþmana temas ettiðinde çaðrýlýr
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isPlayerInRange = true;
+        }
+    }
+
+    // Bu metot, oyuncu düþmandan ayrýldýðýnda çaðrýlýr
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            isPlayerInRange = false;
         }
     }
 }

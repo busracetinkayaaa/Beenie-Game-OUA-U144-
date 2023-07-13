@@ -29,8 +29,7 @@ public class enemySnow : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
 
-        int health = (int)healthBar.instance.GetHealth();
-        healthBar.instance.SetHealth(health);
+        animator.SetBool("isDead", false);
 
     }
 

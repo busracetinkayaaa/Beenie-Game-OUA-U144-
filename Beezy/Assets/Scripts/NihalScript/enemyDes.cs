@@ -30,9 +30,16 @@ public class enemyDes : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
 
-        int health = (int)healthBar.instance.GetHealth();
-        healthBar.instance.SetHealth(health);
-
+        if (healthBar.instance != null)
+        {
+            int value = healthBar.beeHealth;
+            Debug.Log("beeHealth: " + value);
+        }
+        else
+        {
+            Debug.Log("healthBar instance not found.");
+        }
+        animator.SetBool("isDead", false);
     }
 
     private void OnDrawGizmosSelected()

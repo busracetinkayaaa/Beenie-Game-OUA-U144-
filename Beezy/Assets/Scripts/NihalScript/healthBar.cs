@@ -6,46 +6,30 @@ using UnityEngine.UI;
 public class healthBar : MonoBehaviour
 {
     public static healthBar instance;
-    private int currentHealth;
+    public static int beeHealth = 100;
 
-    public Sprite[] healthImgs;
+    public Sprite[] beeHealthImgs;
     public Image animateHealth;
 
+    public void UpdateHealth(int value)
+    {
+        beeHealth = value;
+    }
     private void Awake()
     {
         if (instance == null)
         {
-            instance = this; 
+            instance = this;
         }
         else
         {
-            Destroy(gameObject); 
+            Destroy(gameObject);
         }
     }
-
-    public void SetHealth(int value)
-    {
-        currentHealth = value;
-        Debug.Log("currentHealth"+ currentHealth);
-        UpdateHealthBar();
-    }
-
-    public int GetHealth()
-    {
-        return currentHealth;
-    }
-
-    private void UpdateHealthBar()
-    {
-        int index = Mathf.Clamp(currentHealth / 20, 0, healthImgs.Length - 1);
-        animateHealth.sprite = healthImgs[index];
-    }
-
     // Start is called before the first frame update
     void Start()
     {
-        int defaultHealth = 100;
-        SetHealth(defaultHealth);
+      
     }
 
     // Update is called once per frame

@@ -29,9 +29,8 @@ public class enemySwamp : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
 
-        int health = (int)healthBar.instance.GetHealth();
-        healthBar.instance.SetHealth(health);
-
+        cButton.interactable = false;
+        animator.SetBool("isDead", false);
     }
 
     private void OnDrawGizmosSelected()
