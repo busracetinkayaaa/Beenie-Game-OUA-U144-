@@ -9,7 +9,7 @@ Takım Unity 144
 •***Mehmet Tunahan Acar:*** Devoloper
 
 ## Ürün İsmi
-**The Salvation of the Polenia**
+**BEENİE**
 
 ## Ürün Açıklaması
 •  Hikâye, sihirli ve büyülü bir arı kolonisi olan Polenia'da geçmektedir. Polenia'nın büyülü çiçekleri, arılarının özel güçlerini ortaya çıkaran ve onlara sihirli polenler sağlayan eşsiz bitkilerdir. 
