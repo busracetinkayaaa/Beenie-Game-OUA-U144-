@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
+
 public class enemyDes : MonoBehaviour
 {
     public float lookRadius = 25f;
@@ -16,7 +17,8 @@ public class enemyDes : MonoBehaviour
 
     private bool isAttacking = false;
 
-    private int enemyHealth;
+    public static enemyVol instanceDes;
+    public static int desEnemyHealth = 80;
 
     public Sprite[] healthImgs;
     public Image animateHealth;
@@ -29,7 +31,7 @@ public class enemyDes : MonoBehaviour
         target = playerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-
+        gButton.interactable = false;
         if (healthBar.instance != null)
         {
             int value = healthBar.beeHealth;

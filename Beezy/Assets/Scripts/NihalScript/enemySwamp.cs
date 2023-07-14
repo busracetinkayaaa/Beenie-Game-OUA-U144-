@@ -15,7 +15,8 @@ public class enemySwamp : MonoBehaviour
 
     private bool isAttacking = false;
 
-    private int enemyHealth = 80 ;
+    public static enemyVol instanceSwmp;
+    public static int swmpEnemyHealth = 80;
 
     public Sprite[] healthImgs;
     public Image animateHealth;

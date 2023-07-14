@@ -15,7 +15,8 @@ public class enemySnow : MonoBehaviour
 
     private bool isAttacking = false;
 
-    private int enemyHealth;
+    public static enemyVol instanceSnow;
+    public static int snwEnemyHealth = 80;
 
     public Sprite[] healthImgs;
     public Image animateHealth;
@@ -28,7 +29,7 @@ public class enemySnow : MonoBehaviour
         target = playerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-
+        sButton.interactable = false;
         animator.SetBool("isDead", false);
 
     }

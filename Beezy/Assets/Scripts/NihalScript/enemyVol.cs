@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
+using static BeeController;
+
 public class enemyVol : MonoBehaviour
 {
     public float lookRadius = 25f;
@@ -15,7 +17,8 @@ public class enemyVol : MonoBehaviour
 
     private bool isAttacking = false;
 
-    private int enemyHealth;
+    public static enemyVol instanceVol;
+    public static int volEnemyHealth = 80;
 
     public Sprite[] healthImgs;
     public Image animateHealth;
@@ -26,14 +29,26 @@ public class enemyVol : MonoBehaviour
     private bool isPlayerInRange = false;
     public Animator playerAnimation;
 
-    // Start is called before the first frame update
-    void Start()
+
+    private void Awake()
+    {
+        if (instanceVol == null)
+        {
+            instanceVol = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+        // Start is called before the first frame update
+        void Start()
     {
         target = playerManager.instance.player.transform;
         playerAnimation = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
-
+        dButton.interactable = false;
         animator.SetBool("isDead", false);
     }
 
@@ -50,10 +65,12 @@ public class enemyVol : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
     }
 
+
     void DealDamage()
     {
-        // Burada hasar verme iþlemini gerçekleþtirin, düþmanýn canýný azaltýn vb.
+        volEnemyHealth = volEnemyHealth - 20;
     }
+
     // Update is called once per frame
     void Update()
     {
@@ -99,27 +116,4 @@ public class enemyVol : MonoBehaviour
         isPlayerAttacking = true;
     }
 
-    // Bu metot, oyuncunun saldýrý animasyonu tamamlandýðýnda çaðrýlýr
-    public void OnPlayerAttackComplete()
-    {
-        isPlayerAttacking = false;
-    }
-
-    // Bu metot, oyuncu düþmana temas ettiðinde çaðrýlýr
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            isPlayerInRange = true;
-        }
-    }
-
-    // Bu metot, oyuncu düþmandan ayrýldýðýnda çaðrýlýr
-    private void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            isPlayerInRange = false;
-        }
-    }
 }

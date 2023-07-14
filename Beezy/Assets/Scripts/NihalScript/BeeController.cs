@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.UI;
 
 public class BeeController : MonoBehaviour
@@ -41,6 +42,14 @@ public class BeeController : MonoBehaviour
     private GameObject shieldE;
     private bool isShieldActive = false;
 
+    public NavMeshAgent agentVol, agentDes, agentSnw, agentSwmp;
+    public float attackRange = 5f;
+
+    public Animator enemyAnimation; 
+    int healthVol;
+    int healthDes;
+    int healthSnw;
+    int healthSwmp;
 
     void Start()
     {
@@ -60,8 +69,27 @@ public class BeeController : MonoBehaviour
 
         useGuard.onClick.AddListener(guardOnClick);
         useSpeed.onClick.AddListener(speedOnClick);
-    }
 
+        agentVol = GetComponent<NavMeshAgent>();
+        agentDes = GetComponent<NavMeshAgent>();
+        agentSnw = GetComponent<NavMeshAgent>();
+        agentSwmp = GetComponent<NavMeshAgent>();
+
+        healthVol = enemyVol.volEnemyHealth;
+        healthDes = enemyDes.desEnemyHealth;
+        healthSnw = enemySnow.snwEnemyHealth;
+        healthSwmp = enemySwamp.swmpEnemyHealth;
+
+
+    }
+    private void CheckAgentInRange(NavMeshAgent agent, ref int health)
+    {
+        Debug.Log("ref health" + health);
+        if (Vector3.Distance(transform.position, agent.transform.position) <= attackRange)
+        {
+            health -= 20;
+        }
+    }
     private void guardOnClick()
     {
         StartCoroutine(shieldEff());
@@ -76,7 +104,6 @@ public class BeeController : MonoBehaviour
 
     void Update()
     {
-
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.Space)|| Input.GetKey(KeyCode.LeftControl) )
         {
             animator.SetBool("IsMoving", true);
@@ -90,7 +117,13 @@ public class BeeController : MonoBehaviour
         if (Input.GetKey(KeyCode.Q))
         {
             animator.SetBool("IsAttack", true);
+            CheckAgentInRange(agentVol, ref healthVol);
+            CheckAgentInRange(agentDes, ref healthDes);
+            CheckAgentInRange(agentSnw, ref healthSnw);
+            CheckAgentInRange(agentSwmp,ref healthSwmp);
+
         }
+
         if (!Input.GetKey(KeyCode.Q))
         {
             animator.SetBool("IsAttack", false);
