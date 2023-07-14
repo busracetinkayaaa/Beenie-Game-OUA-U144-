@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
-
 public class enemyDes : MonoBehaviour
 {
     public float lookRadius = 25f;
