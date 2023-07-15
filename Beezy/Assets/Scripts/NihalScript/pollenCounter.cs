@@ -8,7 +8,7 @@ public class pollenCounter : MonoBehaviour
 {
     public GameObject player;
     public GameObject hive;
-    private float interactDistance = 6f;
+    private float interactDistance = 7f;
     private float minDistance = 4f;
 
     public Sprite[] hiveImgs;

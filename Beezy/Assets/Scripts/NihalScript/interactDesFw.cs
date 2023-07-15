@@ -8,7 +8,7 @@ public class interactDesFw : MonoBehaviour
     public GameObject player;
     public Button collectButton;
     public Button useCapacity;
-    private float interactDistance = 8f;
+    private float interactDistance = 6f;
     public List<GameObject> interactiveObjects = new List<GameObject>();
     private List<GameObject> visitedObjects = new List<GameObject>();
 
@@ -55,7 +55,7 @@ public class interactDesFw : MonoBehaviour
                 Vector3 objPosition = closestObject.transform.position;
                 Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
 
-                buttonPosition += new Vector3(130f, 330f, 0f);
+                buttonPosition += new Vector3(130f, 400f, 0f);
                 Debug.Log("The distance to " + buttonPosition);
                 RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
                 Vector2 viewPos;
