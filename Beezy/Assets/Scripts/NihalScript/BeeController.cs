@@ -41,38 +41,13 @@ public class BeeController : MonoBehaviour
     public GameObject player;
     public GameObject shield;
     private GameObject shieldE;
-    private bool isShieldActive = false;
+    public bool isShieldActive = false;
 
-    /*
-    // enemy 
-    public NavMeshAgent agentVol, agentDes, agentSnw, agentSwmp;
-    private int volEnemyHealth, desEnemyHealth, snwEnemyHealth, swmpEnemyHealth = 80;
-    float distanceVol, distanceDes, distanceSnw, distanceSwmp;
-    Transform target;
+    public GameObject dmg;
+    private GameObject dmgE;
+    public bool isDmgActive = false;
 
-    public float attackRange = 5f;
-    public float lookRadius = 25f;
-
-    public Sprite[] healthImgs;
-
-    public Image animateHealthVol;
-    public Image animateHealthDes;
-    public Image animateHealthSnw;
-    public Image animateHealthSwmp;
-
-    public Animator volAnim;
-    public Animator desAnim;
-    public Animator snwAnim;
-    public Animator swmpAnim;
-
-    private bool isAttackingPlayer = false;
-    private bool isAttackingEnemy = false;
-    private bool isPlayerInRange = false;
-
-    int healthVol;
-    int healthDes;
-    int healthSnw;
-    int healthSwmp; */
+    public bool isAttackingPlayer = false;
 
     void Start()
     {
@@ -86,11 +61,6 @@ public class BeeController : MonoBehaviour
         screenCenter.x = Screen.width * .5f;
         screenCenter.y = Screen.height * .5f;
 
-        gButton.interactable = false;
-        sButton.interactable = false;
-        dButton.interactable = false;
-        cButton.interactable = false;
-
         gButton.onClick.AddListener(gOnClick);
         sButton.onClick.AddListener(sOnClick);
         dButton.onClick.AddListener(dOnClick);
@@ -98,12 +68,7 @@ public class BeeController : MonoBehaviour
 
         useGuard.onClick.AddListener(guardOnClick);
         useSpeed.onClick.AddListener(speedOnClick);
-
-        //agentVol = GetComponent<NavMeshAgent>();
-        //agentDes = GetComponent<NavMeshAgent>();
-        //agentSnw = GetComponent<NavMeshAgent>();
-        //agentSwmp = GetComponent<NavMeshAgent>();
-
+        useDamage.onClick.AddListener(damageOnClick);
 
     }
     private void guardOnClick()
@@ -116,6 +81,12 @@ public class BeeController : MonoBehaviour
     {
         StartCoroutine(IncreaseSpeed());
         useSpeed.interactable = false;
+    }
+
+    private void damageOnClick()
+    {
+        StartCoroutine(dmgEff());
+        useDamage.interactable = false;
     }
 
     void Update()
@@ -132,15 +103,17 @@ public class BeeController : MonoBehaviour
         }
 
 
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             animator.SetBool("IsAttack", true);
+            isAttackingPlayer = true;
 
-        }
+}
 
-        if (!Input.GetKey(KeyCode.Q))
+        if (!Input.GetKeyDown(KeyCode.Q))
         {
             animator.SetBool("IsAttack", false);
+            isAttackingPlayer = false;
         }
 
         /*if (Input.GetKey(KeyCode.A))
@@ -189,154 +162,6 @@ public class BeeController : MonoBehaviour
         transform.position += transform.forward * activeForwardSpeed * Time.deltaTime;
         transform.position += (transform.right * activeStrafeSpeed * Time.deltaTime) + (transform.up * activeHoverSpeed * Time.deltaTime);
 
-        /////////////////////////////////
-        /*
-        float distanceVol = Vector3.Distance(target.position, agentVol.transform.position);
-
-        if (distanceVol > lookRadius)
-        {
-            volAnim.SetBool("isWalk", false);
-            volAnim.SetBool("isAttack", false);
-        }
-        else if (distanceVol <= lookRadius)
-        {
-            agentVol.SetDestination(target.position);
-
-            if (distanceVol <= agentVol.stoppingDistance)
-            {
-                animator.SetBool("isAttack", true);
-                // attack the target
-                // FaceTarget();
-                if (distanceVol <= attackRange)
-                {
-                    if (isAttackingPlayer && isPlayerInRange)
-                    {
-                        //
-                    }
-                }
-            }
-            else
-            {
-                volAnim.SetBool("isAttack", false);
-                volAnim.SetBool("isWalk", true);
-            }
-        }
-        else
-        {
-            volAnim.SetBool("isWalk", false);
-            volAnim.SetBool("isAttack", false);
-        }
-
-        float distanceDes = Vector3.Distance(target.position, agentDes.transform.position);
-
-        if (distanceDes > lookRadius)
-        {
-            desAnim.SetBool("isWalk", false);
-            desAnim.SetBool("isAttack", false);
-        }
-        else if (distanceDes <= lookRadius)
-        {
-            agentDes.SetDestination(target.position);
-
-            if (distanceDes <= agentDes.stoppingDistance)
-            {
-                animator.SetBool("isAttack", true);
-                // attack the target
-                // FaceTarget();
-                if (distanceDes <= attackRange)
-                {
-                    if (isAttackingPlayer && isPlayerInRange)
-                    {
-                        //
-                    }
-                }
-            }
-            else
-            {
-                desAnim.SetBool("isAttack", false);
-                desAnim.SetBool("isWalk", true);
-            }
-        }
-        else
-        {
-            desAnim.SetBool("isWalk", false);
-            desAnim.SetBool("isAttack", false);
-        }
-
-
-        float distanceSnw = Vector3.Distance(target.position, agentSnw.transform.position);
-
-        if (distanceSnw > lookRadius)
-        {
-            snwAnim.SetBool("isWalk", false);
-            snwAnim.SetBool("isAttack", false);
-        }
-        else if (distanceSnw <= lookRadius)
-        {
-            agentSnw.SetDestination(target.position);
-
-            if (distanceSnw <= agentSnw.stoppingDistance)
-            {
-                snwAnim.SetBool("isAttack", true);
-                // attack the target
-                // FaceTarget();
-                if (distanceSnw <= attackRange)
-                {
-                    if (isAttackingPlayer && isPlayerInRange)
-                    {
-                        //
-                    }
-                }
-            }
-            else
-            {
-                snwAnim.SetBool("isAttack", false);
-                snwAnim.SetBool("isWalk", true);
-            }
-        }
-        else
-        {
-            snwAnim.SetBool("isWalk", false);
-            snwAnim.SetBool("isAttack", false);
-        }
-
-
-        float distanceSwmp = Vector3.Distance(target.position, agentSwmp.transform.position);
-
-        Debug.Log("distance Swamp" + distanceSwmp);
-        if (distanceSwmp > lookRadius)
-        {
-            swmpAnim.SetBool("isWalk", false);
-            swmpAnim.SetBool("isAttack", false);
-        }
-        else if (distanceSwmp <= lookRadius)
-        {
-            agentSwmp.SetDestination(target.position);
-
-            if (distanceSwmp <= agentSwmp.stoppingDistance)
-            {
-                swmpAnim .SetBool("isAttack", true);
-                // attack the target
-                // FaceTarget();
-                if (distanceSwmp <= attackRange)
-                {
-                    if (isAttackingPlayer && isPlayerInRange)
-                    {
-                        //
-                    }
-                }
-            }
-            else
-            {
-                swmpAnim.SetBool("isAttack", false);
-                swmpAnim.SetBool("isWalk", true);
-            }
-        }
-        else
-        {
-            swmpAnim.SetBool("isWalk", false);
-            swmpAnim.SetBool("isAttack", false);
-        } */
     }
 
     private void gOnClick()
@@ -390,6 +215,26 @@ public class BeeController : MonoBehaviour
 
         Destroy(shieldE);
         isShieldActive = false;
+
+        yield return null;
+    }
+
+    private IEnumerator dmgEff()
+    {
+        Vector3 dmgPosition = player.transform.position;
+        float dmgHeight = shield.GetComponent<Renderer>().bounds.size.y;
+        float yOffset = (player.transform.lossyScale.y + dmgHeight) / 2f;
+        dmgPosition.y += yOffset / 2;
+
+        dmgE = Instantiate(dmg, dmgPosition, player.transform.rotation);
+        dmgE.transform.parent = player.transform;
+
+        isDmgActive = true;
+
+        yield return new WaitForSeconds(15f);
+
+        Destroy(dmgE);
+        isDmgActive = false;
 
         yield return null;
     }

@@ -22,6 +22,7 @@ public class enemySnow : MonoBehaviour
     public Image animateHealth;
 
     public Button sButton;
+    public Animator beeAnim;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,8 @@ public class enemySnow : MonoBehaviour
         target = playerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+
+        beeAnim = GetComponent<Animator>();
         sButton.interactable = false;
         animator.SetBool("isDead", false);
 
@@ -47,6 +50,10 @@ public class enemySnow : MonoBehaviour
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5f);
     }
 
+    void BeeAttack()
+    {
+
+    }
 
     // Update is called once per frame
     void Update()
@@ -85,3 +92,4 @@ public class enemySnow : MonoBehaviour
         }
     }
 }
+
