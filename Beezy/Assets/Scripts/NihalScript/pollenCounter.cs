@@ -8,7 +8,8 @@ public class pollenCounter : MonoBehaviour
 {
     public GameObject player;
     public GameObject hive;
-    private float interactDistance = 10f;
+    private float interactDistance = 6f;
+    private float minDistance = 4f;
 
     public Sprite[] hiveImgs;
     public Image animateHive;
@@ -147,10 +148,10 @@ public class pollenCounter : MonoBehaviour
     {
         float distance = Vector3.Distance(player.transform.position, hive.transform.position);
 
-        if (distance <= interactDistance)
+        if (distance <= interactDistance && distance >= minDistance)
         {
             Vector3 buttonScreenPosition = Camera.main.WorldToScreenPoint(hive.transform.position);
-            buttonScreenPosition += new Vector3(-150f, 0f, 0f);
+            buttonScreenPosition += new Vector3(-270f, 0f, 0f);
 
             Vector2 viewPos;
             RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, buttonScreenPosition, null, out viewPos);
