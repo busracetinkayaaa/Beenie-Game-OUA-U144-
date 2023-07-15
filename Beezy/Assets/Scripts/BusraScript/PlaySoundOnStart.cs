@@ -8,6 +8,7 @@ public class PlaySoundOnStart : MonoBehaviour
     [SerializeField] private AudioClip _clip;
     void Start()
     {
+        Debug.Log("1");
         SoundManager.Instance.PlaySound(_clip);
     }
 

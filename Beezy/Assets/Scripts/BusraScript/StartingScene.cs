@@ -11,15 +11,6 @@ public class StartingScene : MonoBehaviour
     public float animationSpeed = 0.5f;
 
 
-    // Start is called before the first frame update
-
-    private void Start()
-    {
-     
-    }
-
-
-    // Update is called once per frame
     void Update()
     {
 
