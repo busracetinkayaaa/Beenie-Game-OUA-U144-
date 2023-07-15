@@ -16,7 +16,7 @@ public class enemyVol : MonoBehaviour
 
     public Animator animator;
 
-    public float decreaseHealthDistance = 5f;
+    public float decreaseHealthDistance = 6f;
 
     public static enemyVol instanceVol;
     public static int volEnemyHealth = 80;
@@ -202,9 +202,13 @@ public class enemyVol : MonoBehaviour
     {
         if (isDamaging)
         {
-            return; // Eðer hasar verme iþlemi zaten devam ediyorsa, tekrar çaðýrmayý engelleyelim
+            return; 
         }
-
+        if (beeController.isShieldActive)
+        {
+            StartCoroutine(ResetDamageStatus());
+            return;
+        }
         isDamaging = true;
 
         if (playerHealth > 0)

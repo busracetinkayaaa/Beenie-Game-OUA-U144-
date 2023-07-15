@@ -30,35 +30,35 @@ public class healthBar : MonoBehaviour
 
     void UpdateHealthImage()
     {
-        int index = 0;
+        int index_ = 0;
 
         if (beeHealth >= 100)
         {
-            index = 0;
+            index_ = 0;
         }
         else if (beeHealth >= 80)
         {
-            index = 1;
+            index_ = 1;
         }
         else if (beeHealth >= 60)
         {
-            index = 2;
+            index_ = 2;
         }
         else if (beeHealth >= 40)
         {
-            index = 3;
+            index_ = 3;
         }
         else if (beeHealth >= 20)
         {
-            index = 4;
+            index_ = 4;
         }
 
         else if (beeHealth == 0)
         {
-            index = 5;
+            index_ = 5;
         }
 
-        animateBeeHealth.sprite = beeHealthImgs[index];
+        animateBeeHealth.sprite = beeHealthImgs[index_];
 
         Debug.Log("Health: " + beeHealth);
     }

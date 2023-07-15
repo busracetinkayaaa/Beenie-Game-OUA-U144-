@@ -16,8 +16,6 @@ public class pollenCounter : MonoBehaviour
     private int hiveCounter = 0;
     private int hiveTemp = 0;
 
-    public Sprite[] pollImgs;
-    public Image animatePoll;
     private int pollCounter = 0;
 
     public Button collectPol;
@@ -38,7 +36,6 @@ public class pollenCounter : MonoBehaviour
         pollCounterText = GameObject.Find("pollenTxt").GetComponent<TMPro.TextMeshProUGUI>();
 
         animateHive.sprite = hiveImgs[0];
-        animatePoll.sprite = pollImgs[0];
 
         canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
         hiveButton.gameObject.SetActive(false);
@@ -88,7 +85,6 @@ public class pollenCounter : MonoBehaviour
             }
         }
         Debug.Log("PollCounter: " + pollCounter);
-        UpdateAnimPoll();
 
         if (pollCounterText != null)
         {
@@ -114,7 +110,6 @@ public class pollenCounter : MonoBehaviour
                     useCapacity.interactable = false;
                 }
             }
-            UpdateAnimPoll();
         }
     }
 
@@ -135,7 +130,6 @@ public class pollenCounter : MonoBehaviour
         UpdateAnimHive();
 
         pollCounter = 0;
-        animatePoll.sprite = pollImgs[0];
         collectPol.interactable = true;
         collectVol.interactable = true;
         collectDes.interactable = true;
@@ -148,13 +142,6 @@ public class pollenCounter : MonoBehaviour
 
         
     }
-    private void UpdateAnimPoll()
-    {
-        int spriteIndex = Mathf.Clamp(pollCounter / 10, 0, pollImgs.Length - 1);
-        animatePoll.sprite = pollImgs[spriteIndex];
-    }
-
-
     // Update is called once per frame
     void Update()
     {
