@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
@@ -11,14 +12,17 @@ public class enemyVol : MonoBehaviour
     Transform target;
     NavMeshAgent agent;
 
+    bool isAttackingEnemy = false;
+
     public Animator animator;
-    float dieAnimationLength;
 
     public float decreaseHealthDistance = 5f;
 
-
     public static enemyVol instanceVol;
     public static int volEnemyHealth = 80;
+
+    public float decreasePlyrHdist = 3f;
+    int playerHealth;
 
     public Sprite[] healthImgs;
     public Image animateHealth;
@@ -32,14 +36,22 @@ public class enemyVol : MonoBehaviour
     GameObject vfx = null;
 
     public BeeController beeController;
- 
-        // Start is called before the first frame update
+
+    bool isAttacking = false; 
+    bool isDamaging = false; 
+    float damageInterval = 3f;
+    float damageTimer = 0f;
+
+    // Start is called before the first frame update
     void Start()
     {
         beeController = GameObject.Find("FantasyBee").GetComponent<BeeController>();
         vfxPrefab.SetActive(false);
         //Debug.Log("isAttackingPlayer deðeri: " + beeController.isAttackingPlayer);
         animateHealth.gameObject.SetActive(false);
+
+        playerHealth = healthBar.beeHealth;
+        Debug.Log(" playerHealth " + playerHealth);
 
         target = playerManager.instance.player.transform;
         beeAnim = GetComponent<Animator>();
@@ -83,7 +95,7 @@ public class enemyVol : MonoBehaviour
 
                 DealDamage();
             }
-            else 
+            if (distance <= lookRadius)
             {
                 //Debug.Log("BeeAttack");
                 if (vfx == null)
@@ -101,7 +113,7 @@ public class enemyVol : MonoBehaviour
 
             }
         }
-       
+
     }
 
     void DeactivateVFX()
@@ -123,22 +135,21 @@ public class enemyVol : MonoBehaviour
         {
             volEnemyHealth -= 20;
 
-            if (volEnemyHealth <= 0) 
+            if (volEnemyHealth <= 0)
             {
                 volEnemyHealth = 0;
                 StartCoroutine(PlayDieAnimationAndDestroy());
 
             }
-          
-            UpdateHealth(volEnemyHealth);
+
+            UpdateHealthEnemy(volEnemyHealth);
 
         }
     }
-    void UpdateHealth(int health)
+    void UpdateHealthEnemy(int health)
     {
         int index = 0;
 
-        // Saðlýk deðerine göre index deðerini belirle
         if (health >= 80)
         {
             index = 0;
@@ -165,7 +176,6 @@ public class enemyVol : MonoBehaviour
         Debug.Log("Health: " + health);
 
     }
-
     IEnumerator PlayDieAnimationAndDestroy()
     {
         animator.SetBool("isDead", true);
@@ -181,13 +191,41 @@ public class enemyVol : MonoBehaviour
             }
         }
 
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
 
         Destroy(agent.gameObject);
         animateHealth.gameObject.SetActive(false);
         dButton.interactable = true;
     }
 
+    void PlayerDamage()
+    {
+        if (isDamaging)
+        {
+            return; // Eðer hasar verme iþlemi zaten devam ediyorsa, tekrar çaðýrmayý engelleyelim
+        }
+
+        isDamaging = true;
+
+        if (playerHealth > 0)
+        {
+            playerHealth -= 20;
+        }
+        if (playerHealth <= 0)
+        {
+            playerHealth = 0;
+        }
+        healthBar.beeHealth = playerHealth;
+        healthBar.instance.UpdateHealth(playerHealth);
+
+        StartCoroutine(ResetDamageStatus());
+
+    }
+    IEnumerator ResetDamageStatus()
+    {
+        yield return new WaitForSeconds(damageInterval);
+        isDamaging = false;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -198,30 +236,50 @@ public class enemyVol : MonoBehaviour
             animator.SetBool("isWalk", false);
             animator.SetBool("isAttack", false);
         }
-        else if (distance <= lookRadius)
+        else if (distance <= lookRadius || distance <= decreaseHealthDistance)
         {
             animateHealth.gameObject.SetActive(true);
+
             agent.SetDestination(target.position);
 
             if (distance <= agent.stoppingDistance)
             {
-                animator.SetBool("isAttack", true);        
+                if (!isAttacking)
+                {
+                    animator.SetBool("isAttack", true);
+                    isAttacking = true;
+                }
+                if (!isDamaging)
+                {
+                    damageTimer += Time.deltaTime;
+                    if (damageTimer >= damageInterval)
+                    {
+                        PlayerDamage();
+                        damageTimer = 0f;
+                    }
+                }
+
             }
             else
             {
                 animator.SetBool("isAttack", false);
                 animator.SetBool("isWalk", true);
+                isAttacking = false;
+                isDamaging = false;
+                damageTimer = 0f;
+
             }
-            if (distance <= decreaseHealthDistance)
-            {
-                //Debug.Log("isAttackingPlayer deðeri: " + beeController.isAttackingPlayer);
-                BeeAttack(distance, decreaseHealthDistance);
-            }
+
+            BeeAttack(distance, decreaseHealthDistance);
         }
         else
         {
             animator.SetBool("isWalk", false);
             animator.SetBool("isAttack", false);
+            isAttacking = false;
+            isDamaging = false;
+            damageTimer = 0f;
+
         }
     }
 

@@ -17,6 +17,7 @@ public class enemySnow : MonoBehaviour
 
     public static enemyVol instanceSnow;
     public static int snwEnemyHealth = 80;
+    int playerHealth;
 
     public Sprite[] healthImgs;
     public Image animateHealth;
@@ -30,6 +31,16 @@ public class enemySnow : MonoBehaviour
         target = playerManager.instance.player.transform;
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+
+        if (healthBar.instance != null)
+        {
+            playerHealth = healthBar.beeHealth;
+            Debug.Log("beeHealth: " + playerHealth);
+        }
+        else
+        {
+            Debug.Log("healthBar instance not found.");
+        }
 
         beeAnim = GetComponent<Animator>();
         sButton.interactable = false;
