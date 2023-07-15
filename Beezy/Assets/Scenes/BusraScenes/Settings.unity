@@ -1755,7 +1755,6 @@ GameObject:
   - component: {fileID: 1970010575}
   - component: {fileID: 1970010574}
   - component: {fileID: 1970010578}
-  - component: {fileID: 1970010579}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1866,19 +1865,6 @@ MonoBehaviour:
   spriteImage: {fileID: 1244432507}
   sprite1: {fileID: 538017176, guid: 30e8ffa819ecb7346ab87ce76fa7eaac, type: 3}
   sprite2: {fileID: 309233466, guid: 30e8ffa819ecb7346ab87ce76fa7eaac, type: 3}
---- !u!114 &1970010579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970010573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbda090ae483ce04db0b1b81bfcf8086, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _clip: {fileID: 8300000, guid: d4b236a2fb9215a47bc9f407d8fd4bbc, type: 3}
 --- !u!1 &2027586472
 GameObject:
   m_ObjectHideFlags: 0
@@ -2030,7 +2016,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2052407800
 MonoBehaviour:
   m_ObjectHideFlags: 0

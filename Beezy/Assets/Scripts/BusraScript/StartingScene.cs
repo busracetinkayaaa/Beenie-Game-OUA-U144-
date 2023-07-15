@@ -10,7 +10,11 @@ public class StartingScene : MonoBehaviour
     public Image animateImgObj;
     public float animationSpeed = 0.5f;
 
+    private void Awake()
+    {
 
+        SoundManager.Instance.ChangeMasterVolume(0.5f); // Ýstediðiniz ayarlara göre volume deðerini ayarlayabilirsiniz
+    }
     void Update()
     {
 

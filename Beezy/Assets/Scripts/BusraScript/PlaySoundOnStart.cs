@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class PlaySoundOnStart : MonoBehaviour
 {
-    //bunu karaktere eklemeyi unutma
-    [SerializeField] private AudioClip _clip;
-    void Start()
+    
+    private void Awake()
     {
-        Debug.Log("1");
-        SoundManager.Instance.PlaySound(_clip);
+        
+        SoundManager.Instance.ChangeMasterVolume(0.5f); // Ýstediðiniz ayarlara göre volume deðerini ayarlayabilirsiniz
     }
 
-  
+
 }
