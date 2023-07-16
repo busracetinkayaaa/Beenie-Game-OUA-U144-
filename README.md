@@ -33,7 +33,10 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 
 • Platform oyun türünü sevenler  
 
-• Simülasyon oyun türünü sevenler  
+• Simülasyon oyun türünü sevenler   
+
+## Juriye Not:
+Farklı engeller,şartlar,düşmanlar,biomlar eklenerek ya da genişletilerek oyun süreci uzatılabilir oyun çeşitlendirilebilir.
 
 ## Product Backlog URL:    
 https://miro.com/app/board/uXjVM-fE4Yc=/  
