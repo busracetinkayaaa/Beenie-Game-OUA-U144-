@@ -241,6 +241,7 @@ public class enemyDes : MonoBehaviour
         {
             animator.SetBool("isWalk", false);
             animator.SetBool("isAttack", false);
+            animateHealth.gameObject.SetActive(false);
         }
         else if (distance <= lookRadius || distance <= decreaseHealthDistance)
         {
@@ -286,6 +287,7 @@ public class enemyDes : MonoBehaviour
             isDamaging = false;
             damageTimer = 0f;
 
+            animateHealth.gameObject.SetActive(false);
         }
     }
 

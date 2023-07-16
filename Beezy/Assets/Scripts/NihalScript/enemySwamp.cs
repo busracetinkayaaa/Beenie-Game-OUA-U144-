@@ -241,6 +241,7 @@ public class enemySwamp : MonoBehaviour
         {
             animator.SetBool("isWalk", false);
             animator.SetBool("isAttack", false);
+            animateHealth.gameObject.SetActive(false);
         }
         else if (distance <= lookRadius || distance <= decreaseHealthDistance)
         {
@@ -285,6 +286,8 @@ public class enemySwamp : MonoBehaviour
             isAttacking = false;
             isDamaging = false;
             damageTimer = 0f;
+
+            animateHealth.gameObject.SetActive(false);
 
         }
     }

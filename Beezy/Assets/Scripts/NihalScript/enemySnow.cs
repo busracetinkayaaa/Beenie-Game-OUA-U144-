@@ -242,6 +242,7 @@ public class enemySnow : MonoBehaviour
         {
             animator.SetBool("isWalk", false);
             animator.SetBool("isAttack", false);
+            animateHealth.gameObject.SetActive(false);
         }
         else if (distance <= lookRadius || distance <= decreaseHealthDistance)
         {
@@ -287,6 +288,7 @@ public class enemySnow : MonoBehaviour
             isDamaging = false;
             damageTimer = 0f;
 
+            animateHealth.gameObject.SetActive(false);
         }
     }
 }
