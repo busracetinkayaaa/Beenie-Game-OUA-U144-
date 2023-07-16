@@ -85,7 +85,7 @@ public class healthBar : MonoBehaviour
     {
         yield return new WaitForSeconds(beeAnim.GetCurrentAnimatorStateInfo(0).length);
 
-        //SceneManager.LoadScene("YourSceneName");
+        //SceneManager.LoadScene("GameOver");
     }
     // Start is called before the first frame update
     void Start()
