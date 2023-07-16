@@ -161,7 +161,7 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 **•Ekran Görüntüleri:**
 
 
-**•Sprint Review:** Oyunun mekaniği,görüntüsü,ses ve efektleri,UI vs. oyunun genel hatları değerlendirilmiş ; proje eksikleri giderilmiştir.Aktif olmayan üye ile ilgili sorunun giderilmediğine karar verilmiştir. 
+**•Sprint Review:** Oyunun mekaniği,görüntüsü,ses ve efektleri,UI vs. oyunun genel hatları değerlendirilmiş ; proje eksikleri giderilmiştir.Aktif olmayan üye ile ilgili sorunun giderilmediğine karar verilmiştir.   
 ***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
 
 **•Sprint Retrospective:**  
