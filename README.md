@@ -6,7 +6,7 @@ Takım Unity 144
 •***Büşra Çetinkaya:*** Product Owner/Developer  
 •***Nihal Demir:*** Developer  
 •***Yaren Karaman:*** Developer  
-•***Mehmet Tunahan Acar:*** Devoloper
+•***Mehmet Tunahan Acar:*** Aktif olmayan üye
 
 ## Ürün İsmi
 **BEENİE**
@@ -142,9 +142,29 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
  ◦Takım üyelerinin son sprintte daha aktif olması istenmiştir.   
 
  ## Product Backlog URL:    
- https://miro.com/app/board/uXjVM-fE4Yc=/
+ https://miro.com/app/board/uXjVM-fE4Yc=/    
+
+ # Sprint 3  
+
+ **•Sprint içinde tamamlanması tahmin edilen puan:** 
+
+ **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları 
+  gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir: https://1drv.ms/w/s!Ak_NsJbufym7gRvGM0RsuhZqoO4L?e=1HIqGY
+
+ **• Sprint board update:** Sprint board ekran görüntüsü: 
+
+  ## Ürün Durumu:
+**•Ekran Görüntüleri:**
 
 
+**•Sprint Review:** Oyunun mekaniği,görüntüsü,ses ve efektleri,UI vs. oyunun genel hatları değerlendirilmiş ; proje eksikleri giderilmiştir.Aktif olmayan üye ile ilgili sorunun giderilmediğine karar verilmiştir. 
+***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
+
+**•Sprint Retrospective:**  
+ ◦Takım arkadaşlarının gelecek projelerde aktifliklerine devam etmesi gerektiklerine vurgu yapılmıştır.
+ ◦Takım arkadaşlarına projedeki emekleri için teşekkürler iletilmiştir.
+
+  ## Product Backlog URL:
 
 
 
