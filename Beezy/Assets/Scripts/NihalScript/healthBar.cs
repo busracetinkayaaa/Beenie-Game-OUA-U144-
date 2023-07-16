@@ -15,6 +15,8 @@ public class healthBar : MonoBehaviour
     public Sprite[] beeHealthImgs;
     public Image animateBeeHealth;
 
+    public Animator sceneAnim;
+
     public void UpdateHealth(int value)
     {
         beeHealth = value;
@@ -85,7 +87,11 @@ public class healthBar : MonoBehaviour
     {
         yield return new WaitForSeconds(beeAnim.GetCurrentAnimatorStateInfo(0).length);
 
-        //SceneManager.LoadScene("GameOver");
+        sceneAnim.SetBool("fadeOut", true);
+        yield return new WaitForSeconds(1f);
+        sceneAnim.SetBool("isNewScene", true);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("MainMenuScene");
     }
     // Start is called before the first frame update
     void Start()

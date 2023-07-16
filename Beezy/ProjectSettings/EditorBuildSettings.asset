@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BusraScenes/GameOver.unity
     guid: 786eb3e854e52644ea765b3c4388859f
+  - enabled: 1
+    path: Assets/Scenes/NihalScenes/WIN.unity
+    guid: a5b70f257aa40ad48b916c8d3bfa7762
   m_configObjects: {}
