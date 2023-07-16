@@ -165,9 +165,11 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 
 #### Oyun Başlangıç Ekranı: 
 
-![arka-export](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/7d2ffc97-bee9-4947-ad50-1b50f1662461)
+![1](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/12bc0fe2-1234-4db7-826d-68fc58d2e369)  
 
+#### Oyun Bitiş Ekranı:
 
+![3](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/39dd06dc-6747-4ba1-92c9-a56234095878)
 
 #### Bilgilendirme Haritası:  
 
