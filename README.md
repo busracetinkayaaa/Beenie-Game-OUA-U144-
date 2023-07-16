@@ -175,7 +175,8 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/dc152eb5-87ee-4346-9161-84fc3e0c0e75
 
 
-**•Sprint Review:** Oyunun mekaniği,görüntüsü,ses ve efektleri,UI vs. oyunun genel hatları değerlendirilmiş ; proje eksikleri giderilmiştir.Aktif olmayan üye ile ilgili sorunun giderilmediğine karar verilmiştir.   
+**•Sprint Review:** Oyunun mekaniği,görüntüsü,ses ve efektleri,UI vs. oyunun genel hatları değerlendirilmiş ; proje eksikleri giderilmiştir.  
+   Aktif olmayan üye ile ilgili sorunun giderilmediğine karar verilmiştir.   
 ***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
 
 **•Sprint Retrospective:**  
