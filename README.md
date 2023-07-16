@@ -161,7 +161,12 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 
 
   ## Ürün Durumu:
-**•Ekran Görüntüleri:**
+**•Ekran Görüntüleri:**  
+![8a7679f8-ce20-4972-ae8d-5e1079e5872a](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/cc48b437-09d5-4c4f-9e92-feff9d4e8383)  
+
+
+
+
 
 
 **•Sprint Review:** Oyunun mekaniği,görüntüsü,ses ve efektleri,UI vs. oyunun genel hatları değerlendirilmiş ; proje eksikleri giderilmiştir.Aktif olmayan üye ile ilgili sorunun giderilmediğine karar verilmiştir.   
