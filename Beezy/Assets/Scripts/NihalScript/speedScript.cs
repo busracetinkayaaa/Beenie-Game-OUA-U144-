@@ -10,11 +10,16 @@ public class speedScript : MonoBehaviour
     private float interactDistance = 15f;
     public GameObject magicFlower_speed;
     public Button useSpeed;
+    private float minDistance = 9f;
 
     public Sprite[] animImgs;
     private Image buttonImage;
     public float frameRate = 0.2f;
     private int currentFrame = 0;
+
+    public Vector2 buttonOffset = new Vector2(150f, 0f);
+    private Vector3 buttonStartPosition;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +27,11 @@ public class speedScript : MonoBehaviour
         player = GameObject.Find("FantasyBee");
         speedButton.onClick.AddListener(OnClick);
         InvokeRepeating("AnimateButton", frameRate, frameRate);
+
+        if (speedButton != null)
+        {
+            buttonStartPosition = speedButton.transform.position;
+        }
 
     }
     private void AnimateButton()
@@ -56,23 +66,19 @@ public class speedScript : MonoBehaviour
         {
             float distance = Vector3.Distance(player.transform.position, magicFlower_speed.transform.position);
 
-            if (distance < interactDistance)
+            if (distance < interactDistance && distance >= minDistance)
             {
                 isObjectInRange = true;
-
-                Vector3 objPosition = magicFlower_speed.transform.position;
-                Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
-                buttonPosition += new Vector3(150f, 500f, 0f);
-
-                RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
-                Vector2 viewPos;
-                RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, buttonPosition, null, out viewPos);
-                speedButton.GetComponent<RectTransform>().anchoredPosition = viewPos;
             }
         }
+
         if (speedButton != null)
         {
             speedButton.gameObject.SetActive(isObjectInRange);
+            if (!isObjectInRange)
+            {
+                speedButton.transform.position = buttonStartPosition;
+            }
         }
     }
 

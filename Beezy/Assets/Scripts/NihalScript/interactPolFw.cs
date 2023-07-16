@@ -13,6 +13,9 @@ public class interactPolFw : MonoBehaviour
     private List<GameObject> visitedObjects = new List<GameObject>();
 
     private int pollenCounter = 0;
+    public Vector2 buttonOffset = new Vector2(150f, 0f);
+
+    private float distance;
 
     // Start is called before the first frame update
     void Start()
@@ -34,7 +37,7 @@ public class interactPolFw : MonoBehaviour
         {
             if (!visitedObjects.Contains(obj))
             {
-                float distance = Vector3.Distance(player.transform.position, obj.transform.position);
+                distance = Vector3.Distance(player.transform.position, obj.transform.position);
 
                 if (distance < interactDistance && distance < closestDistance)
                 {
@@ -51,16 +54,17 @@ public class interactPolFw : MonoBehaviour
 
             if (anyObjectInRange)
             {
+                if (distance < interactDistance && distance < closestDistance)
+                {
+                    Vector3 objPosition = closestObject.transform.position;
+                    Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
 
-                Vector3 objPosition = closestObject.transform.position;
-                Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
-
-                buttonPosition += new Vector3(150f, 200f, 0f);
-
-                RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
-                Vector2 viewPos;
-                RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, buttonPosition, null, out viewPos);
-                collectButton.GetComponent<RectTransform>().anchoredPosition = viewPos;
+                    buttonPosition += new Vector3(150f, buttonOffset.y, 0f);
+                    RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
+                    Vector2 viewPos;
+                    RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, buttonPosition, null, out viewPos);
+                    collectButton.GetComponent<RectTransform>().anchoredPosition = viewPos;
+                }
             }
         }
     }

@@ -10,20 +10,28 @@ public class damageScript : MonoBehaviour
     private float interactDistance = 15f;
     public GameObject magicFlower_damage;
     public Button useDamage;
+    private float minDistance = 9f;
 
     public Sprite[] animImgs;
     private Image buttonImage;
     public float frameRate = 0.2f;
     private int currentFrame = 0;
 
+    public Vector2 buttonOffset = new Vector2(150f, 0f);
+    private Vector3 buttonStartPosition;
+
     // Start is called before the first frame update
     void Start()
     {
-
         buttonImage = useDamage.GetComponent<Image>();
         player = GameObject.Find("FantasyBee");
         damageButton.onClick.AddListener(OnClick);
         InvokeRepeating("AnimateButton", frameRate, frameRate);
+
+        if (damageButton != null)
+        {
+            buttonStartPosition = damageButton.transform.position;
+        }
     }
 
     private void AnimateButton()
@@ -57,26 +65,20 @@ public class damageScript : MonoBehaviour
         {
             float distance = Vector3.Distance(player.transform.position, magicFlower_damage.transform.position);
 
-            if (distance < interactDistance)
+            if (distance < interactDistance && distance >= minDistance)
             {
                 isObjectInRange = true;
-
-                Vector3 objPosition = magicFlower_damage.transform.position;
-                Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
-                buttonPosition += new Vector3(230f, 320f, 0f);
-
-                RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
-                Vector2 viewPos;
-                RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, buttonPosition, null, out viewPos);
-                damageButton.GetComponent<RectTransform>().anchoredPosition = viewPos;
             }
         }
 
         if (damageButton != null)
         {
             damageButton.gameObject.SetActive(isObjectInRange);
+            if (!isObjectInRange)
+            {
+                damageButton.transform.position = buttonStartPosition;
+            }
         }
-
     }
 
     public void SetInteractiveObject(GameObject obj)

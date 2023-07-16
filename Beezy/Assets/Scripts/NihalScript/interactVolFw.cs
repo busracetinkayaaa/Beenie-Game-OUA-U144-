@@ -9,11 +9,13 @@ public class interactVolFw : MonoBehaviour
     public GameObject player;
     public Button collectButton;
     public Button useCapacity;
-    private float interactDistance = 11f;
+    private float interactDistance = 10f;
     public List<GameObject> interactiveObjects = new List<GameObject>();
     private List<GameObject> visitedObjects = new List<GameObject>();
 
     private int pollenCounter = 0;
+    private float distance;
+    public Vector2 buttonOffset = new Vector2(150f, 0f);
 
     // Start is called before the first frame update
     void Start()
@@ -35,7 +37,7 @@ public class interactVolFw : MonoBehaviour
         {
             if (!visitedObjects.Contains(obj))
             {
-                float distance = Vector3.Distance(player.transform.position, obj.transform.position);
+                distance = Vector3.Distance(player.transform.position, obj.transform.position);
 
                 if (distance < interactDistance && distance < closestDistance)
                 {
@@ -50,14 +52,12 @@ public class interactVolFw : MonoBehaviour
         {
             collectButton.gameObject.SetActive(anyObjectInRange);
 
-            if (anyObjectInRange)
+            if (distance < interactDistance && distance < closestDistance)
             {
-
                 Vector3 objPosition = closestObject.transform.position;
                 Vector3 buttonPosition = Camera.main.WorldToScreenPoint(objPosition);
 
-                buttonPosition += new Vector3(180f, 850f, 0f);
-                Debug.Log("The distance to " + buttonPosition);
+                buttonPosition += new Vector3(150f, buttonOffset.y, 0f);
                 RectTransform canvasRectTransform = FindObjectOfType<Canvas>().GetComponent<RectTransform>();
                 Vector2 viewPos;
                 RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, buttonPosition, null, out viewPos);
