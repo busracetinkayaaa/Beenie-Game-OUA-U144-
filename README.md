@@ -111,7 +111,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-
 #### Can Barı Tasarımları 
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/f4fa9d4b-d04a-47aa-9808-b74e08559f72" width="250" height="200"/>  
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/93b396fa-d885-4e13-8d62-24ad3cc44ce9" width="250" height="200"/> </br>
-Kırmızı:Beeni (karakterimiz)  Yeşil:Düşmanlar
+Yeşil:Beeni (karakterimiz)  Kırmızı:Düşmanlar
 
 
 #### UI Güç Tasarımlarında Ufak Değişiklikler Yapıldı
