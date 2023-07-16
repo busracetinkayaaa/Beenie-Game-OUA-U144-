@@ -149,7 +149,8 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 
  # Sprint 3  
 
- **•Sprint içinde tamamlanması tahmin edilen puan:** 
+ **•Sprint içinde tamamlanması tahmin edilen puan:** 150 (180 oldu) 
+ 2. Sprint sonunda tahmin edilen puana ulaşılamamış oradaki görev bu sprinte aktarılmış tahmin edilen puanın üzerine çıkılmıştır.
 
  **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları 
   gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir: https://1drv.ms/w/s!Ak_NsJbufym7gRvGM0RsuhZqoO4L?e=1HIqGY
@@ -167,7 +168,8 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
  ◦Takım arkadaşlarının gelecek projelerde aktifliklerine devam etmesi gerektiklerine vurgu yapılmıştır.
  ◦Takım arkadaşlarına projedeki emekleri için teşekkürler iletilmiştir.
 
-  ## Product Backlog URL:
+  ## Product Backlog URL:  
+  https://miro.com/app/board/uXjVM-fE4Yc=/ 
 
 
 
