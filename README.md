@@ -162,6 +162,13 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 
   ## Ürün Durumu:
 **•Ekran Görüntüleri:**  
+
+#### Oyun Başlangıç Ekranı: 
+
+![arka-export](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/7d2ffc97-bee9-4947-ad50-1b50f1662461)
+
+
+
 #### Bilgilendirme Haritası:  
 
 ![8a7679f8-ce20-4972-ae8d-5e1079e5872a](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/cc48b437-09d5-4c4f-9e92-feff9d4e8383)  
