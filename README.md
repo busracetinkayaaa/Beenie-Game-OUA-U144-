@@ -155,7 +155,10 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
  **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları 
   gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir: https://1drv.ms/w/s!Ak_NsJbufym7gRvGM0RsuhZqoO4L?e=1HIqGY
 
- **• Sprint board update:** Sprint board ekran görüntüsü: 
+ **• Sprint board update:** Sprint board ekran görüntüsü:  
+ 
+ ![Ekran görüntüsü 2023-07-17 004813](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/7a2ee8f4-4695-4c6d-9987-a7254e54259c)
+
 
   ## Ürün Durumu:
 **•Ekran Görüntüleri:**
