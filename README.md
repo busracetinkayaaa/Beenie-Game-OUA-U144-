@@ -27,7 +27,7 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 
 
 ## Hedef Kitle  
-• 12-30 yaş aralığı  
+• 7 yaş ve üzeri  
 
 • Macera oyun türünü sevenler  
 
