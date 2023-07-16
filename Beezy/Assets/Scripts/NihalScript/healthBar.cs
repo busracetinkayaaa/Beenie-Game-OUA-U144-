@@ -1,12 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static BeeController;
 
 public class healthBar : MonoBehaviour
 {
     public static healthBar instance;
     public static int beeHealth = 100;
+
+    public Animator beeAnim;
 
     public Sprite[] beeHealthImgs;
     public Image animateBeeHealth;
@@ -56,11 +60,32 @@ public class healthBar : MonoBehaviour
         else if (beeHealth == 0)
         {
             index_ = 5;
+            PlayDeadAnimation();
+        }
+        else
+        {
+            beeAnim.SetBool("isdead", false);
         }
 
         animateBeeHealth.sprite = beeHealthImgs[index_];
 
         Debug.Log("Health: " + beeHealth);
+    }
+
+    void PlayDeadAnimation()
+    {
+        if (!beeAnim.GetBool("isdead"))
+        {
+            beeAnim.SetBool("isdead", true);
+            StartCoroutine(WaitForAnimationToEnd());
+        }
+    }
+
+    IEnumerator WaitForAnimationToEnd()
+    {
+        yield return new WaitForSeconds(beeAnim.GetCurrentAnimatorStateInfo(0).length);
+
+        //SceneManager.LoadScene("YourSceneName");
     }
     // Start is called before the first frame update
     void Start()

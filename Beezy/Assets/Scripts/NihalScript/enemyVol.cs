@@ -39,7 +39,7 @@ public class enemyVol : MonoBehaviour
 
     bool isAttacking = false; 
     bool isDamaging = false; 
-    float damageInterval = 3f;
+    float damageInterval = 5f;
     float damageTimer = 0f;
 
     // Start is called before the first frame update

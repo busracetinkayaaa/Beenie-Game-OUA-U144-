@@ -55,6 +55,7 @@ public class BeeController : MonoBehaviour
         //target = playerManager.instance.player.transform;
 
         animator = GetComponent<Animator>();
+        animator.SetFloat("isdead", 0.5f);
         targetRotation = transform.rotation;
         smoothRotation = transform.rotation;
 
