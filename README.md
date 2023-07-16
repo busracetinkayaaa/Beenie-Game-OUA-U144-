@@ -165,7 +165,7 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 ***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
 
 **•Sprint Retrospective:**  
- ◦Takım arkadaşlarının gelecek projelerde aktifliklerine devam etmesi gerektiklerine vurgu yapılmıştır.
+ ◦Takım arkadaşlarının gelecek projelerde aktifliklerine devam etmesi gerektiklerine vurgu yapılmıştır.  
  ◦Takım arkadaşlarına projedeki emekleri için teşekkürler iletilmiştir.
 
   ## Product Backlog URL:  
