@@ -149,7 +149,7 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 
  # Sprint 3  
 
- **•Sprint içinde tamamlanması tahmin edilen puan:** 150 (180 oldu) 
+ **•Sprint içinde tamamlanması tahmin edilen puan:** 150 (180 oldu)  
  2. Sprint sonunda tahmin edilen puana ulaşılamamış oradaki görev bu sprinte aktarılmış tahmin edilen puanın üzerine çıkılmıştır.
 
  **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları 
@@ -162,11 +162,17 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
 
   ## Ürün Durumu:
 **•Ekran Görüntüleri:**  
+#### Bilgilendirme Haritası:  
+
 ![8a7679f8-ce20-4972-ae8d-5e1079e5872a](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/cc48b437-09d5-4c4f-9e92-feff9d4e8383)  
 
+#### Özel Güçlü Çiçeklerden Biri:
 
+![ed8862a1-e64b-4717-9cbc-01f35802f753](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/8a608558-9114-423d-a72f-3b47e7f02f4e)  
 
+#### Düşman Saldırısı:  
 
+https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/dc152eb5-87ee-4346-9161-84fc3e0c0e75
 
 
 **•Sprint Review:** Oyunun mekaniği,görüntüsü,ses ve efektleri,UI vs. oyunun genel hatları değerlendirilmiş ; proje eksikleri giderilmiştir.Aktif olmayan üye ile ilgili sorunun giderilmediğine karar verilmiştir.   
