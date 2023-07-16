@@ -21,12 +21,15 @@ public class MusicOnOff : MonoBehaviour
         Image buttonImage = button.GetComponent<Image>();
         if (buttonImage != null)
         {
+
             if (isPressed)
             {
                 buttonImage.sprite = defaultSprite;
+
             }
             else
             {
+
                 buttonImage.sprite = pressedSprite;
             }
 

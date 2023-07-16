@@ -12,8 +12,7 @@ public class StartingScene : MonoBehaviour
 
     private void Awake()
     {
-
-        SoundManager.Instance.ChangeMasterVolume(0.5f); // Ýstediðiniz ayarlara göre volume deðerini ayarlayabilirsiniz
+        SoundManager.Instance.ChangeMasterVolume(0.5f);
     }
     void Update()
     {

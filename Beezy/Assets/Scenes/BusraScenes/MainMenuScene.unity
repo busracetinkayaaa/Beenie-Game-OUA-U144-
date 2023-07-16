@@ -1047,9 +1047,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _musicSource: {fileID: 2115714881}
   _effectsSource: {fileID: 1961377024}
-  button: {fileID: 0}
-  pressedSprite: {fileID: 309233466, guid: 30e8ffa819ecb7346ab87ce76fa7eaac, type: 3}
-  defaultSprite: {fileID: 538017176, guid: 30e8ffa819ecb7346ab87ce76fa7eaac, type: 3}
 --- !u!4 &1801576093
 Transform:
   m_ObjectHideFlags: 0

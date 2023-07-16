@@ -10,33 +10,25 @@ public class SoundManager : MonoBehaviour
 
     public static SoundManager Instance;
 
-    [SerializeField] public Button button;
-    [SerializeField] public Sprite pressedSprite;
-    [SerializeField] public Sprite defaultSprite;
-
-    private bool isPressed = false;
-
 
     private void Awake()
     {
         if (Instance == null) 
         {
-            Debug.Log("instance");
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
 
         else 
         {
-            Debug.Log("deneme");
             Destroy(gameObject);
         }
     }
-
+    /*
     public void PlaySound(AudioClip clip) 
     {
         _effectsSource.PlayOneShot(clip);
-    }
+    }*/
 
     public void ChangeMasterVolume(float value)
     {
@@ -53,20 +45,6 @@ public class SoundManager : MonoBehaviour
     {
         _musicSource.mute = !_musicSource.mute;
 
-        Image buttonImage = button.GetComponent<Image>();
-        if (buttonImage != null)
-        {
-            if (isPressed)
-            {
-                buttonImage.sprite = defaultSprite;
-            }
-            else
-            {
-                buttonImage.sprite = pressedSprite;
-            }
-
-            isPressed = !isPressed;
-        }
     }
 }
  
