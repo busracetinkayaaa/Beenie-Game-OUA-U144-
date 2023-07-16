@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class pollenCounter : MonoBehaviour
 {
@@ -29,6 +30,8 @@ public class pollenCounter : MonoBehaviour
 
     public Button useCapacity;
     private RectTransform canvasRectTransform;
+
+    public Animator scAnim; 
 
     // Start is called before the first frame update
     void Start()
@@ -94,6 +97,7 @@ public class pollenCounter : MonoBehaviour
 
     }
 
+
     public void IncCapacity()
     {
         if (useCapacity.interactable)
@@ -120,6 +124,8 @@ public class pollenCounter : MonoBehaviour
         animateHive.sprite = hiveImgs[spriteIndex];
 
         Debug.Log("Sprite Index: " + spriteIndex);
+
+        CheckGameCompletion();
     }
 
     public void PollToHive()
@@ -143,6 +149,24 @@ public class pollenCounter : MonoBehaviour
 
         
     }
+
+    public void CheckGameCompletion()
+    {
+        if (hiveCounter >= 600)
+        {
+            Debug.Log("Oyun tamamlandý!");
+            StartCoroutine(WaitForAnimToEnd());
+        }
+    }
+
+    IEnumerator WaitForAnimToEnd()
+    {
+        yield return new WaitForSeconds(0.5f);
+        scAnim.SetBool("fadeOut", true);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene("WIN");
+    }
+
     // Update is called once per frame
     void Update()
     {
