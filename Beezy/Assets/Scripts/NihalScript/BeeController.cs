@@ -151,7 +151,7 @@ public class BeeController : MonoBehaviour
         Vector2 lookInput = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
         Vector2 mouseDistance = (lookInput - screenCenter) / screenCenter;
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(1))
         {
             mouseDistance = Vector2.ClampMagnitude(mouseDistance, 1f);
             transform.Rotate(0f, mouseDistance.x * lookRateSpeed * Time.deltaTime, 0f, Space.Self);
