@@ -6,7 +6,7 @@ Takım Unity 144
 •***Büşra Çetinkaya:*** Product Owner/Developer  
 •***Nihal Demir:*** Developer  
 •***Yaren Karaman:*** Developer  
-•***Mehmet Tunahan Acar:*** Devoloper
+•***Mehmet Tunahan Acar:*** Aktif olmayan üye
 
 ## Ürün İsmi
 **BEENİE**
@@ -27,13 +27,16 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 
 
 ## Hedef Kitle  
-• 12-30 yaş aralığı  
+• 7 yaş ve üzeri  
 
 • Macera oyun türünü sevenler  
 
 • Platform oyun türünü sevenler  
 
-• Simülasyon oyun türünü sevenler  
+• Simülasyon oyun türünü sevenler   
+
+## Juriye Not:
+Farklı engeller,şartlar,düşmanlar,biomlar eklenerek ya da genişletilerek oyun süreci uzatılabilir oyun çeşitlendirilebilir.
 
 ## Product Backlog URL:    
 https://miro.com/app/board/uXjVM-fE4Yc=/  
@@ -108,7 +111,7 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/56198818/0fc722fc-7153-4436-
 #### Can Barı Tasarımları 
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/f4fa9d4b-d04a-47aa-9808-b74e08559f72" width="250" height="200"/>  
 <img src="https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/93b396fa-d885-4e13-8d62-24ad3cc44ce9" width="250" height="200"/> </br>
-Kırmızı:Beeni (karakterimiz)  Yeşil:Düşmanlar
+Yeşil:Beeni (karakterimiz)  Kırmızı:Düşmanlar
 
 
 #### UI Güç Tasarımlarında Ufak Değişiklikler Yapıldı
@@ -142,9 +145,55 @@ Aktif olmayan üye ile iletişim ve görevlendirme sağlandı.
  ◦Takım üyelerinin son sprintte daha aktif olması istenmiştir.   
 
  ## Product Backlog URL:    
- https://miro.com/app/board/uXjVM-fE4Yc=/
+ https://miro.com/app/board/uXjVM-fE4Yc=/    
+
+ # Sprint 3  
+
+ **•Sprint içinde tamamlanması tahmin edilen puan:** 150 (180 oldu)  
+ 2. Sprint sonunda tahmin edilen puana ulaşılamamış oradaki görev bu sprinte aktarılmış tahmin edilen puanın üzerine çıkılmıştır.
+
+ **• Daily Scrum:**  Discord üzerinden  buluşma saatleri belirlenmiş ve herkese uyan saatlerde sesli olarak Daily Scrum toplantıları 
+  gerçekleştirilmiştir. Gün içinde uygun olunmadığında kısa mesajlarla gerekli bilgiler verilmiştir: https://1drv.ms/w/s!Ak_NsJbufym7gRvGM0RsuhZqoO4L?e=1HIqGY
+
+ **• Sprint board update:** Sprint board ekran görüntüsü:  
+ 
+ ![Ekran görüntüsü 2023-07-17 004813](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/7a2ee8f4-4695-4c6d-9987-a7254e54259c)
 
 
+  ## Ürün Durumu:
+**•Ekran Görüntüleri:**  
+
+#### Oyun Başlangıç Ekranı: 
+
+![1](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/12bc0fe2-1234-4db7-826d-68fc58d2e369)  
+
+#### Oyun Bitiş Ekranı:
+
+![3](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/39dd06dc-6747-4ba1-92c9-a56234095878)
+
+#### Bilgilendirme Haritası:  
+
+![8a7679f8-ce20-4972-ae8d-5e1079e5872a](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/cc48b437-09d5-4c4f-9e92-feff9d4e8383)  
+
+#### Özel Güçlü Çiçeklerden Biri:
+
+![ed8862a1-e64b-4717-9cbc-01f35802f753](https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/8a608558-9114-423d-a72f-3b47e7f02f4e)  
+
+#### Düşman Saldırısı:  
+
+https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/dc152eb5-87ee-4346-9161-84fc3e0c0e75
+
+
+**•Sprint Review:** Oyunun mekaniği,görüntüsü,ses ve efektleri,UI vs. oyunun genel hatları değerlendirilmiş ; proje eksikleri giderilmiştir.  
+   Aktif olmayan üye ile ilgili sorunun giderilmediğine karar verilmiştir.   
+***Sprint Rewiev Katılımcıları:*** Fatma Yılmaz,Büşra Çetinkaya,Nihal Demir,Yaren Karaman  
+
+**•Sprint Retrospective:**  
+ ◦Takım arkadaşlarının gelecek projelerde aktifliklerine devam etmesi gerektiklerine vurgu yapılmıştır.  
+ ◦Takım arkadaşlarına projedeki emekleri için teşekkürler iletilmiştir.
+
+  ## Product Backlog URL:  
+  https://miro.com/app/board/uXjVM-fE4Yc=/ 
 
 
 

@@ -18,7 +18,9 @@ public class SceneLoader : MonoBehaviour
     }
     public void LoadLevelEnd(string GameOver)
     {
-        SceneManager.LoadScene("GameOver");
+
+        Application.Quit();
+        
     }
 
     public void LoadBackToMenu(string MainMenuScene)
