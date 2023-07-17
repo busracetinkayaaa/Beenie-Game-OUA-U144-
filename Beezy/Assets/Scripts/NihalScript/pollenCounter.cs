@@ -175,7 +175,7 @@ public class pollenCounter : MonoBehaviour
         if (distance <= interactDistance && distance >= minDistance)
         {
             Vector3 buttonScreenPosition = Camera.main.WorldToScreenPoint(hive.transform.position);
-            buttonScreenPosition += new Vector3(-270f, 0f, 0f);
+            buttonScreenPosition += new Vector3(-480f, 0f, 0f);
 
             Vector2 viewPos;
             RectTransformUtility.ScreenPointToLocalPointInRectangle(canvasRectTransform, buttonScreenPosition, null, out viewPos);
