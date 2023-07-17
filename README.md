@@ -36,7 +36,10 @@ Beenie, Polenia'nın en yetenekli arılarından biridir ve koloninin geleceği i
 • Simülasyon oyun türünü sevenler   
 
 ## Juriye Not:
-Farklı engeller,şartlar,düşmanlar,biomlar eklenerek ya da genişletilerek oyun süreci uzatılabilir oyun çeşitlendirilebilir.
+Farklı engeller,şartlar,düşmanlar,biomlar eklenerek ya da genişletilerek oyun süreci uzatılabilir oyun çeşitlendirilebilir. 
+
+### NOT: 
+Steam'de ücretli satılacaktır o yüzden ticaretleştirme mekaniği için farklı bir şey yapılmamıştır.
 
 ## Product Backlog URL:    
 https://miro.com/app/board/uXjVM-fE4Yc=/  
@@ -192,8 +195,13 @@ https://github.com/busracetinkayaaa/OUA-U144/assets/123100433/dc152eb5-87ee-4346
  ◦Takım arkadaşlarının gelecek projelerde aktifliklerine devam etmesi gerektiklerine vurgu yapılmıştır.  
  ◦Takım arkadaşlarına projedeki emekleri için teşekkürler iletilmiştir.
 
-  ## Product Backlog URL:  
-  https://miro.com/app/board/uXjVM-fE4Yc=/ 
+ ## Product Backlog URL:  
+ https://miro.com/app/board/uXjVM-fE4Yc=/  
+
+ #### Projede kullanılan assetler-modeller-müzikler :  
+ 
+[Projede_Kullanlan_Asset_ve_Modeller (3).docx](https://github.com/busracetinkayaaa/OUA-U144/files/12073924/Projede_Kullanlan_Asset_ve_Modeller.3.docx)
+
 
 
 
